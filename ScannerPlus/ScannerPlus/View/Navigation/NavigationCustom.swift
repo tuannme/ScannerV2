@@ -9,6 +9,8 @@
 import UIKit
 
 class NavigationCustom: BaseViewCustom {
+    
+    @IBOutlet weak var blurView: UIView!
     @IBOutlet weak var leftBtn: UIButton!
     @IBOutlet weak var titleLb: UILabel!
     @IBOutlet weak var rightBtn: UIButton!
@@ -19,18 +21,23 @@ class NavigationCustom: BaseViewCustom {
         super.setupView()
         let color = Configuration.shareInstance.getAppColor()
         if color == .Dark{
-            backgroundColor = UIColor(hex: "020626")
+            backgroundColor = UIColor(hex: "720503")
             let titleColor = UIColor.white
             leftBtn.setTitleColor(titleColor, for: .normal)
             rightBtn.setTitleColor(titleColor, for: .normal)
             titleLb.textColor = titleColor
         }else{
-            backgroundColor = UIColor(hex: "ACAAA4")
+            backgroundColor = UIColor(hex: "B7B5B9")
             let titleColor = UIColor.black
             leftBtn.setTitleColor(titleColor, for: .normal)
             rightBtn.setTitleColor(titleColor, for: .normal)
             titleLb.textColor = titleColor
         }
+        
+        let blurEffect = UIBlurEffect(style: .dark)
+        let blurredEffectView = UIVisualEffectView(effect: blurEffect)
+        blurredEffectView.frame = bounds
+        blurView.addSubview(blurredEffectView)
     }
     
     @IBAction func leftAction(_ sender: Any) {

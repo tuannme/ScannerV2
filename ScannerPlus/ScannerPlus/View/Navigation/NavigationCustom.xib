@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NavigationCustom" customModule="ScannerPlus" customModuleProvider="target">
             <connections>
+                <outlet property="blurView" destination="eKA-aa-iFu" id="7uj-Qh-w5M"/>
                 <outlet property="leftBtn" destination="tJZ-xh-Cgz" id="lAm-J8-b7D"/>
                 <outlet property="rightBtn" destination="Bl4-ae-nxv" id="fpl-uF-zOF"/>
                 <outlet property="titleLb" destination="OVS-EV-1Yi" id="1rf-hU-IJH"/>
@@ -21,6 +22,10 @@
             <rect key="frame" x="0.0" y="0.0" width="361" height="67"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eKA-aa-iFu">
+                    <rect key="frame" x="0.0" y="0.0" width="361" height="67"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tJZ-xh-Cgz">
                     <rect key="frame" x="0.0" y="20" width="80" height="47"/>
                     <constraints>
@@ -46,18 +51,22 @@
                     </connections>
                 </button>
             </subviews>
-            <color key="backgroundColor" red="0.0078431372549019607" green="0.023529411764705882" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstAttribute="trailing" secondItem="eKA-aa-iFu" secondAttribute="trailing" id="1eC-Bk-HT8"/>
                 <constraint firstItem="Bl4-ae-nxv" firstAttribute="leading" secondItem="OVS-EV-1Yi" secondAttribute="trailing" id="4PQ-3X-Pn2"/>
                 <constraint firstAttribute="trailing" secondItem="Bl4-ae-nxv" secondAttribute="trailing" id="572-gS-R8q"/>
                 <constraint firstItem="OVS-EV-1Yi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="CJM-Yk-2IA"/>
                 <constraint firstAttribute="bottom" secondItem="tJZ-xh-Cgz" secondAttribute="bottom" id="D62-bt-8a0"/>
+                <constraint firstItem="eKA-aa-iFu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Dy3-cB-3hZ"/>
                 <constraint firstAttribute="bottom" secondItem="Bl4-ae-nxv" secondAttribute="bottom" id="Iwd-6a-mSF"/>
+                <constraint firstItem="eKA-aa-iFu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Wio-mU-IZs"/>
                 <constraint firstItem="tJZ-xh-Cgz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="bHT-Ka-U0X"/>
                 <constraint firstItem="OVS-EV-1Yi" firstAttribute="leading" secondItem="tJZ-xh-Cgz" secondAttribute="trailing" id="cIE-5n-emV"/>
                 <constraint firstItem="tJZ-xh-Cgz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="fp4-fO-fLc"/>
                 <constraint firstItem="Bl4-ae-nxv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="g4f-QB-LKf"/>
                 <constraint firstAttribute="bottom" secondItem="OVS-EV-1Yi" secondAttribute="bottom" id="gwW-Rl-86R"/>
+                <constraint firstAttribute="bottom" secondItem="eKA-aa-iFu" secondAttribute="bottom" id="zLH-y8-s75"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="18.5" y="-247.5"/>

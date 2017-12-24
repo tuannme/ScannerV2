@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FB7CA2F17399245C9D12AE0 /* Pods_ScannerPlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D326E0F9DDF22E95599114AF /* Pods_ScannerPlus.framework */; };
+		CAD823B01FF038B90061918F /* ExpandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD823AF1FF038B90061918F /* ExpandView.swift */; };
+		CAD823B21FF03B4F0061918F /* BlurEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD823B11FF03B4F0061918F /* BlurEffectView.swift */; };
 		DFBED80F1FE23C7500636BC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBED80E1FE23C7500636BC1 /* AppDelegate.swift */; };
 		DFBED8141FE23C7500636BC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFBED8121FE23C7500636BC1 /* Main.storyboard */; };
 		DFBED8161FE23C7500636BC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBED8151FE23C7500636BC1 /* Assets.xcassets */; };
@@ -22,6 +25,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A7DB06D4099915A35F97A6F /* Pods-ScannerPlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerPlus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScannerPlus/Pods-ScannerPlus.debug.xcconfig"; sourceTree = "<group>"; };
+		6C7FC46573ABE99409B15C6F /* Pods-ScannerPlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerPlus.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScannerPlus/Pods-ScannerPlus.release.xcconfig"; sourceTree = "<group>"; };
+		CAD823AF1FF038B90061918F /* ExpandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandView.swift; sourceTree = "<group>"; };
+		CAD823B11FF03B4F0061918F /* BlurEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurEffectView.swift; sourceTree = "<group>"; };
+		D326E0F9DDF22E95599114AF /* Pods_ScannerPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScannerPlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFBED80B1FE23C7500636BC1 /* ScannerPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScannerPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFBED80E1FE23C7500636BC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFBED8131FE23C7500636BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FB7CA2F17399245C9D12AE0 /* Pods_ScannerPlus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF03747716C20C7B9603C87B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D326E0F9DDF22E95599114AF /* Pods_ScannerPlus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAD823AE1FF0389F0061918F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CAD823AF1FF038B90061918F /* ExpandView.swift */,
+				CAD823B11FF03B4F0061918F /* BlurEffectView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		DFBED8021FE23C7500636BC1 = {
 			isa = PBXGroup;
 			children = (
 				DFBED80D1FE23C7500636BC1 /* ScannerPlus */,
 				DFBED80C1FE23C7500636BC1 /* Products */,
+				ED8AB4CB860520090656282A /* Pods */,
+				AF03747716C20C7B9603C87B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +130,7 @@
 		DFEA7D621FED03D100B357D1 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				CAD823AE1FF0389F0061918F /* View */,
 				DFEA7D661FED03FB00B357D1 /* MainViewController.swift */,
 			);
 			path = Main;
@@ -149,6 +178,15 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		ED8AB4CB860520090656282A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A7DB06D4099915A35F97A6F /* Pods-ScannerPlus.debug.xcconfig */,
+				6C7FC46573ABE99409B15C6F /* Pods-ScannerPlus.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFBED81D1FE23C7500636BC1 /* Build configuration list for PBXNativeTarget "ScannerPlus" */;
 			buildPhases = (
+				1EFE76297CD5920A9165B17C /* [CP] Check Pods Manifest.lock */,
 				DFBED8071FE23C7500636BC1 /* Sources */,
 				DFBED8081FE23C7500636BC1 /* Frameworks */,
 				DFBED8091FE23C7500636BC1 /* Resources */,
+				A2D18188F6ECAC21B67E8130 /* [CP] Embed Pods Frameworks */,
+				048B021829CAC6DFAE05B09F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,6 +258,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		048B021829CAC6DFAE05B09F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScannerPlus/Pods-ScannerPlus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EFE76297CD5920A9165B17C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A2D18188F6ECAC21B67E8130 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScannerPlus/Pods-ScannerPlus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DFBED8071FE23C7500636BC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -226,10 +315,12 @@
 				DFEA7D671FED03FB00B357D1 /* MainViewController.swift in Sources */,
 				DFEA7D6E1FED04D500B357D1 /* NavigationCustom.swift in Sources */,
 				DFEA7D731FED067E00B357D1 /* BaseViewCustom.swift in Sources */,
+				CAD823B21FF03B4F0061918F /* BlurEffectView.swift in Sources */,
 				DFBED80F1FE23C7500636BC1 /* AppDelegate.swift in Sources */,
 				DFEA7D7B1FED0DBA00B357D1 /* Color.swift in Sources */,
 				DFEA7D6A1FED045700B357D1 /* Configuration.swift in Sources */,
 				DFEA7D651FED03EB00B357D1 /* BaseViewController.swift in Sources */,
+				CAD823B01FF038B90061918F /* ExpandView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,12 +455,13 @@
 		};
 		DFBED81E1FE23C7500636BC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A7DB06D4099915A35F97A6F /* Pods-ScannerPlus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = USQFGC88U6;
 				INFOPLIST_FILE = ScannerPlus/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dream.ScannerPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -380,12 +472,13 @@
 		};
 		DFBED81F1FE23C7500636BC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C7FC46573ABE99409B15C6F /* Pods-ScannerPlus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = USQFGC88U6;
 				INFOPLIST_FILE = ScannerPlus/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dream.ScannerPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
