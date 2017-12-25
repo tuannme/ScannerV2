@@ -4,5 +4,6 @@
 target 'ScannerPlus' do
   use_frameworks!
   pod 'LiquidFloatingActionButton', :git => 'https://github.com/alexsanderkhitev/LiquidFloatingActionButton.git'
+  pod ‘DisplaySwitcher’
 
 end

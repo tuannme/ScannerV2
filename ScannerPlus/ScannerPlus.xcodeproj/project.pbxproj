@@ -10,6 +10,13 @@
 		5FB7CA2F17399245C9D12AE0 /* Pods_ScannerPlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D326E0F9DDF22E95599114AF /* Pods_ScannerPlus.framework */; };
 		CAD823B01FF038B90061918F /* ExpandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD823AF1FF038B90061918F /* ExpandView.swift */; };
 		CAD823B21FF03B4F0061918F /* BlurEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD823B11FF03B4F0061918F /* BlurEffectView.swift */; };
+		DF13E8C31FF0ED320056A147 /* DocumentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF13E8C21FF0ED320056A147 /* DocumentItem.swift */; };
+		DF13E8C61FF0F1CA0056A147 /* DocumentItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF13E8C41FF0F1CA0056A147 /* DocumentItemCell.xib */; };
+		DF13E8C71FF0F1CA0056A147 /* DocumentItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF13E8C51FF0F1CA0056A147 /* DocumentItemCell.swift */; };
+		DF13E8CA1FF0FCA40056A147 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF13E8C91FF0FCA40056A147 /* SearchView.swift */; };
+		DF13E8CC1FF0FCB20056A147 /* SearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF13E8CB1FF0FCB20056A147 /* SearchView.xib */; };
+		DF4B79141FF0B3AE00485FFA /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4B79131FF0B3AE00485FFA /* CollectionView.swift */; };
+		DF4B79211FF0B77300485FFA /* CellInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4B79201FF0B77300485FFA /* CellInterface.swift */; };
 		DFBED80F1FE23C7500636BC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBED80E1FE23C7500636BC1 /* AppDelegate.swift */; };
 		DFBED8141FE23C7500636BC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFBED8121FE23C7500636BC1 /* Main.storyboard */; };
 		DFBED8161FE23C7500636BC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBED8151FE23C7500636BC1 /* Assets.xcassets */; };
@@ -30,6 +37,13 @@
 		CAD823AF1FF038B90061918F /* ExpandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandView.swift; sourceTree = "<group>"; };
 		CAD823B11FF03B4F0061918F /* BlurEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurEffectView.swift; sourceTree = "<group>"; };
 		D326E0F9DDF22E95599114AF /* Pods_ScannerPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScannerPlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF13E8C21FF0ED320056A147 /* DocumentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentItem.swift; sourceTree = "<group>"; };
+		DF13E8C41FF0F1CA0056A147 /* DocumentItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DocumentItemCell.xib; sourceTree = "<group>"; };
+		DF13E8C51FF0F1CA0056A147 /* DocumentItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentItemCell.swift; sourceTree = "<group>"; };
+		DF13E8C91FF0FCA40056A147 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		DF13E8CB1FF0FCB20056A147 /* SearchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchView.xib; sourceTree = "<group>"; };
+		DF4B79131FF0B3AE00485FFA /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		DF4B79201FF0B77300485FFA /* CellInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellInterface.swift; sourceTree = "<group>"; };
 		DFBED80B1FE23C7500636BC1 /* ScannerPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScannerPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFBED80E1FE23C7500636BC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFBED8131FE23C7500636BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -69,10 +83,40 @@
 		CAD823AE1FF0389F0061918F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DF13E8C81FF0FC800056A147 /* Search */,
+				DF4B791F1FF0B73100485FFA /* Cell */,
 				CAD823AF1FF038B90061918F /* ExpandView.swift */,
 				CAD823B11FF03B4F0061918F /* BlurEffectView.swift */,
+				DF4B79131FF0B3AE00485FFA /* CollectionView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		DF13E8C11FF0ECE30056A147 /* DocumentItem */ = {
+			isa = PBXGroup;
+			children = (
+				DF13E8C21FF0ED320056A147 /* DocumentItem.swift */,
+			);
+			path = DocumentItem;
+			sourceTree = "<group>";
+		};
+		DF13E8C81FF0FC800056A147 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				DF13E8C91FF0FCA40056A147 /* SearchView.swift */,
+				DF13E8CB1FF0FCB20056A147 /* SearchView.xib */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		DF4B791F1FF0B73100485FFA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DF13E8C51FF0F1CA0056A147 /* DocumentItemCell.swift */,
+				DF13E8C41FF0F1CA0056A147 /* DocumentItemCell.xib */,
+				DF4B79201FF0B77300485FFA /* CellInterface.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		DFBED8021FE23C7500636BC1 = {
@@ -120,6 +164,7 @@
 		DFEA7D601FED03BF00B357D1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DF13E8C11FF0ECE30056A147 /* DocumentItem */,
 				DFEA7D791FED0DAF00B357D1 /* Extension */,
 				DFEA7D691FED045700B357D1 /* Configuration.swift */,
 				DFEA7D741FED093A00B357D1 /* Constant.swift */,
@@ -250,6 +295,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFEA7D701FED04EA00B357D1 /* NavigationCustom.xib in Resources */,
+				DF13E8C61FF0F1CA0056A147 /* DocumentItemCell.xib in Resources */,
+				DF13E8CC1FF0FCB20056A147 /* SearchView.xib in Resources */,
 				DFBED8191FE23C7500636BC1 /* LaunchScreen.storyboard in Resources */,
 				DFBED8161FE23C7500636BC1 /* Assets.xcassets in Resources */,
 				DFBED8141FE23C7500636BC1 /* Main.storyboard in Resources */,
@@ -280,13 +327,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScannerPlus-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A2D18188F6ECAC21B67E8130 /* [CP] Embed Pods Frameworks */ = {
@@ -295,9 +345,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ScannerPlus/Pods-ScannerPlus-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DisplaySwitcher/DisplaySwitcher.framework",
+				"${BUILT_PRODUCTS_DIR}/LiquidFloatingActionButton/LiquidFloatingActionButton.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DisplaySwitcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LiquidFloatingActionButton.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -312,14 +367,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFEA7D751FED093A00B357D1 /* Constant.swift in Sources */,
+				DF4B79211FF0B77300485FFA /* CellInterface.swift in Sources */,
+				DF13E8C31FF0ED320056A147 /* DocumentItem.swift in Sources */,
 				DFEA7D671FED03FB00B357D1 /* MainViewController.swift in Sources */,
 				DFEA7D6E1FED04D500B357D1 /* NavigationCustom.swift in Sources */,
+				DF13E8C71FF0F1CA0056A147 /* DocumentItemCell.swift in Sources */,
 				DFEA7D731FED067E00B357D1 /* BaseViewCustom.swift in Sources */,
 				CAD823B21FF03B4F0061918F /* BlurEffectView.swift in Sources */,
 				DFBED80F1FE23C7500636BC1 /* AppDelegate.swift in Sources */,
 				DFEA7D7B1FED0DBA00B357D1 /* Color.swift in Sources */,
+				DF13E8CA1FF0FCA40056A147 /* SearchView.swift in Sources */,
 				DFEA7D6A1FED045700B357D1 /* Configuration.swift in Sources */,
 				DFEA7D651FED03EB00B357D1 /* BaseViewController.swift in Sources */,
+				DF4B79141FF0B3AE00485FFA /* CollectionView.swift in Sources */,
 				CAD823B01FF038B90061918F /* ExpandView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
