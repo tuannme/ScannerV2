@@ -14,26 +14,31 @@ class NavigationCustom: BaseViewCustom {
     @IBOutlet weak var leftBtn: UIButton!
     @IBOutlet weak var titleLb: UILabel!
     @IBOutlet weak var rightBtn: UIButton!
+    
+    @IBOutlet weak var leftImv: UIImageView!
+    @IBOutlet weak var rightImv: UIImageView!
+    
+    
     var addLeftAction : (() -> ())?
     var addRightAction : (() -> ())?
-    
+
     override func setupView() {
         super.setupView()
         let color = Configuration.shareInstance.getAppColor()
         if color == .Dark{
-            backgroundColor = UIColor(hex: "720503")
+            backgroundColor = UIColor(hex: "480B02")
             let titleColor = UIColor.white
             leftBtn.setTitleColor(titleColor, for: .normal)
             rightBtn.setTitleColor(titleColor, for: .normal)
             titleLb.textColor = titleColor
         }else{
-            backgroundColor = UIColor(hex: "B7B5B9")
+            backgroundColor = UIColor(hex: "FFFFFF")
             let titleColor = UIColor.black
             leftBtn.setTitleColor(titleColor, for: .normal)
             rightBtn.setTitleColor(titleColor, for: .normal)
             titleLb.textColor = titleColor
         }
-        
+
         let blurEffect = UIBlurEffect(style: .dark)
         let blurredEffectView = UIVisualEffectView(effect: blurEffect)
         blurredEffectView.frame = bounds
@@ -48,10 +53,12 @@ class NavigationCustom: BaseViewCustom {
     }
     func config(leftBtnImage:String?,rightBtnImage:String?,leftBtnTitle:String?,rightBtnTitle:String?,title:String?){
         if let leftBtnImage = leftBtnImage{
-            leftBtn.setImage(UIImage(named: leftBtnImage), for: .normal)
+            leftImv.image = UIImage(named: leftBtnImage)
+            leftImv.isHidden = false
         }
         if let rightBtnImage = rightBtnImage{
-            rightBtn.setImage(UIImage(named: rightBtnImage), for: .normal)
+            rightImv.image = UIImage(named: rightBtnImage)
+            rightImv.isHidden = false
         }
         if let leftBtnTitle = leftBtnTitle{
             leftBtn.setTitle(leftBtnTitle, for: .normal)

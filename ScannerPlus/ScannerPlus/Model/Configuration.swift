@@ -18,7 +18,7 @@ class Configuration: NSObject {
     
     func getAppColor() -> AppColor{
         let color = getUserDefault(key: Constant.AppColor)
-        return color == AppColor.Light.rawValue ? AppColor.Light : AppColor.Dark
+        return color == AppColor.Dark.rawValue ? AppColor.Dark : AppColor.Light
     }
     
     func setAppColor(color:AppColor){

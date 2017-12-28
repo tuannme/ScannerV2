@@ -1,7 +1,9 @@
 PODS:
+  - DisplaySwitcher (1.0.1)
   - LiquidFloatingActionButton (2.0.0)
 
 DEPENDENCIES:
+  - DisplaySwitcher
   - LiquidFloatingActionButton (from `https://github.com/alexsanderkhitev/LiquidFloatingActionButton.git`)
 
 EXTERNAL SOURCES:
@@ -14,8 +16,9 @@ CHECKOUT OPTIONS:
     :git: https://github.com/alexsanderkhitev/LiquidFloatingActionButton.git
 
 SPEC CHECKSUMS:
+  DisplaySwitcher: 5f725284c28cdf22ea7ba2eee8e8f7e7cb9cdf87
   LiquidFloatingActionButton: 61496c787627103ccb3a23d4dea71faef4a84d4d
 
-PODFILE CHECKSUM: 0a5e9fac4161e413f426910f750ddc24e195cc35
+PODFILE CHECKSUM: 14ca6137d347b433a6ebe4e1ef97507184383887
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.3.1
