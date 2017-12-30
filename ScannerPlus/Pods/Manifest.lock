@@ -1,10 +1,14 @@
 PODS:
   - DisplaySwitcher (1.0.1)
+  - FCAlertView (1.4.0)
   - LiquidFloatingActionButton (2.0.0)
+  - SlideMenuControllerSwift (3.0.2)
 
 DEPENDENCIES:
   - DisplaySwitcher
+  - FCAlertView
   - LiquidFloatingActionButton (from `https://github.com/alexsanderkhitev/LiquidFloatingActionButton.git`)
+  - SlideMenuControllerSwift
 
 EXTERNAL SOURCES:
   LiquidFloatingActionButton:
@@ -17,8 +21,10 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   DisplaySwitcher: 5f725284c28cdf22ea7ba2eee8e8f7e7cb9cdf87
+  FCAlertView: fdddd63381898c1d1a5a20c9f084fbd2c6d12f8b
   LiquidFloatingActionButton: 61496c787627103ccb3a23d4dea71faef4a84d4d
+  SlideMenuControllerSwift: 16001e1fd9963fd089fa6c91dbe18d4c148f0ce9
 
-PODFILE CHECKSUM: 14ca6137d347b433a6ebe4e1ef97507184383887
+PODFILE CHECKSUM: 2144ca8cdb330f12e2eb94bb1ca41125f8fd1d93
 
 COCOAPODS: 1.3.1

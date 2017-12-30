@@ -2,4 +2,54 @@
 <Bucket
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScannerPlus/ViewController/Home/HomeViewController.swift"
+            timestampString = "536349307.819683"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "showAlertCreateNewFolder()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScannerPlus.HomeViewController.showAlertCreateNewFolder() -&gt; ()"
+                  moduleName = "ScannerPlus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tuannm/Desktop/ScannerV2/ScannerPlus/ScannerPlus/ViewController/Home/HomeViewController.swift"
+                  timestampString = "536349308.066377"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.String&gt;) -&gt; () in ScannerPlus.HomeViewController.showAlertCreateNewFolder() -&gt; ()"
+                  moduleName = "ScannerPlus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tuannm/Desktop/ScannerV2/ScannerPlus/ScannerPlus/ViewController/Home/HomeViewController.swift"
+                  timestampString = "536349308.069368"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

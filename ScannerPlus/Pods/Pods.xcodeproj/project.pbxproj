@@ -3,92 +3,152 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0636D820D7A28182A38DFEDD0B4265B8 /* ArrayEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22175C66D6D6EE6CA1462115DB295ED7 /* ArrayEx.swift */; };
-		109A0831CF2CB326A483DDA24B3346BA /* Pods-ScannerPlus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D2BEF4FC4E1141FCA4826DEB85D578 /* Pods-ScannerPlus-dummy.m */; };
-		18C95DAAD58A2EB42B65B39F1260E65F /* DisplaySwitcher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0211BFDCBE15D2690FD6B6087FD59BF9 /* DisplaySwitcher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1966598572E070BAEE27F15622C5E416 /* CGPointEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6B34AC9A78CF0D1C79BF50E51CDC7F /* CGPointEx.swift */; };
-		3B564D995F752798FE6CCD98AA10E350 /* UIColorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E8EBDE732AFADBDAF218F964832500 /* UIColorEx.swift */; };
-		3D28228BA6376224424ABCDEB282B104 /* LiquidFloatingActionButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 217F71E0DE1CFEB3DFE8359A6EF3443D /* LiquidFloatingActionButton-dummy.m */; };
-		4243FC835C96599DA1B8085F7B852AF4 /* Pods-ScannerPlus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB0A3691C8C73B7CFDB46A9D5069F98 /* Pods-ScannerPlus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C1000F3F17B2CE8D1FF2F2D1FCAE05C /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A4762229E6C06DB0ED4E555BA1B093 /* CGRectEx.swift */; };
-		4D5B1EA134D7C144E22F61ABF3F9761A /* LiquidUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1F4A587792BE96496A16B3A7BDB2E3 /* LiquidUtil.swift */; };
-		4F9743592EA4DC976519E84ACA567C6E /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEB3989C204447EF442188D3F57C705 /* TransitionManager.swift */; };
+		0636D820D7A28182A38DFEDD0B4265B8 /* ArrayEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C23F97A380338244EA7C9DC5E65B6 /* ArrayEx.swift */; };
+		0921F7A022E91ECC7563A2E63CF3E9D0 /* checkmark-round.png in Resources */ = {isa = PBXBuildFile; fileRef = 4311C3EA9B98075971CD5B3DB957C579 /* checkmark-round.png */; };
+		18C95DAAD58A2EB42B65B39F1260E65F /* DisplaySwitcher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82AE2FD2E285EFC93C379AC885D7ADF4 /* DisplaySwitcher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1966598572E070BAEE27F15622C5E416 /* CGPointEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE1D82D7CD771418EAF566443633610 /* CGPointEx.swift */; };
+		20BAB5D59DF7BD045F079334AAA64ACA /* FCAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 42E3B99F3DE2668C1B015317D3B1D562 /* FCAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B564D995F752798FE6CCD98AA10E350 /* UIColorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC17273854DEC140F5537211CF28C20A /* UIColorEx.swift */; };
+		3D28228BA6376224424ABCDEB282B104 /* LiquidFloatingActionButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9013DDE1EBAF09482FAD9DA3C5FE67A0 /* LiquidFloatingActionButton-dummy.m */; };
+		4C1000F3F17B2CE8D1FF2F2D1FCAE05C /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435561580339905091182D590027E186 /* CGRectEx.swift */; };
+		4D5B1EA134D7C144E22F61ABF3F9761A /* LiquidUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89C577A91FB682F7758D68A9441CD9D /* LiquidUtil.swift */; };
+		4F9743592EA4DC976519E84ACA567C6E /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CBC8EFE893143E6985A9C96CC0E43 /* TransitionManager.swift */; };
+		518A7348D349718B58417FAB16B088CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		52BC6CDBD327A325EAC54A0099EDECCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		63EA8417F977F707F041C8F2EECBD898 /* DisplaySwitchLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0B6C42C67B9BB908615304EB7BABE6 /* DisplaySwitchLayout.swift */; };
-		7983A7BA4AE100EB349393C74AA98CB6 /* SwitchLayoutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C7FE40B42D3D2A5A4782CD1437EC41 /* SwitchLayoutButton.swift */; };
-		7D5F16F30A7738537F8CAA944B46EFEA /* SimpleCircleLiquidEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C605E42F760DE3D6D4AB1805A3C7B57 /* SimpleCircleLiquidEngine.swift */; };
-		94E79B91257D5DD5F1163045AA76A872 /* LiquittableCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33244A7D68C913FF4F3A86E3192A9FF1 /* LiquittableCircle.swift */; };
-		9DAEAB5D5736D03E6798C6A5B98B492F /* LiquidFloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E556627A96D72796329FB5859796BC4 /* LiquidFloatingActionButton.swift */; };
-		B182F168A7CC2C6A6B5F747C3B6292E1 /* DisplaySwitchLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E6B7B5689D5B8DF5111391258D374 /* DisplaySwitchLayoutAttributes.swift */; };
-		B24C256BC7AAFDA1C858FF2598991862 /* DisplaySwitcher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 447D9A4E07500DE9017818779D957670 /* DisplaySwitcher-dummy.m */; };
+		63EA8417F977F707F041C8F2EECBD898 /* DisplaySwitchLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427C157B4717D55A9B5504227F5C1AC1 /* DisplaySwitchLayout.swift */; };
+		6A21318139FF99CF4CAAC436EE68EAD3 /* Pods-ScannerPlus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB0A3691C8C73B7CFDB46A9D5069F98 /* Pods-ScannerPlus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F036EDB3C6F4D77407B93978853D66A /* FCAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F17ABAA00480328953CE4782123E6DAF /* FCAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FFCC6F2C2D4DE0C51D1C028C420C818 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7983A7BA4AE100EB349393C74AA98CB6 /* SwitchLayoutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE2CA71618A3DA02D404F87F29BAE6C /* SwitchLayoutButton.swift */; };
+		7C548FE59CFBEE5B45C0915A292156CD /* alert-round.png in Resources */ = {isa = PBXBuildFile; fileRef = ADBB6BBEC1E6FB338F2C4351CCEB67CF /* alert-round.png */; };
+		7D5F16F30A7738537F8CAA944B46EFEA /* SimpleCircleLiquidEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D5C008EF62978642BD69625E39A5B7 /* SimpleCircleLiquidEngine.swift */; };
+		829568A31799E733A4BB6C98A5F7C9DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		82CD4C9C56D28B0A759AC4E8250B903F /* FCAlertView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D5BE25435C43AE7CCD6421136977009F /* FCAlertView.bundle */; };
+		8CAE2E96BE9DAEDF420FB328CB2C30F4 /* FCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD87133D3A840BA8EFFB2872A89AD73D /* FCAlertView.m */; };
+		8EAD8DC87EFE35C7E714FBD936B98EDA /* FCAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF4500D68DBD1D871E9F0A66BD0DB97 /* FCAlertView-dummy.m */; };
+		94E79B91257D5DD5F1163045AA76A872 /* LiquittableCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2464490937E94C765BC86CCDFC076F2E /* LiquittableCircle.swift */; };
+		9DAEAB5D5736D03E6798C6A5B98B492F /* LiquidFloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED7F3A587F7CA5F9BE69E0DF324A6FB /* LiquidFloatingActionButton.swift */; };
+		A9FD7A77342D09BE15060685180D3F1F /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B29A29FF97E9CE527DE377110E9CA9 /* SlideMenuController.swift */; };
+		AA0B9F2B3FD21A5C63CC83DE8F1136B1 /* Pods-ScannerPlus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D2BEF4FC4E1141FCA4826DEB85D578 /* Pods-ScannerPlus-dummy.m */; };
+		B182F168A7CC2C6A6B5F747C3B6292E1 /* DisplaySwitchLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF8F238B770BCC83A16BADDC5CC6089 /* DisplaySwitchLayoutAttributes.swift */; };
+		B24C256BC7AAFDA1C858FF2598991862 /* DisplaySwitcher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7074B6E24C1B75F345332B77E5D923B /* DisplaySwitcher-dummy.m */; };
 		BF6CB061DB3E298F6E9A9BC2BF2A71E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		CE304D428676CC75D4E8C34A20AF9924 /* TransitionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DD55D4C55B7D2D5C9DD408FD0F4A03 /* TransitionLayout.swift */; };
-		D036CBC20A049055A65E5E5E0D901432 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E68DB70743BA87355B6E4AC462A016BC /* LiquidFloatingActionButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CA4776628709BCC7D506C1002ACB067 /* LiquidFloatingActionButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C67A57220098FC00F2BF444E8618FACD /* SlideMenuControllerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B312651B9DA32DCC65B355E4A9C903B2 /* SlideMenuControllerSwift-dummy.m */; };
+		C8F994B05558D4A259978E6784A79C0B /* close-round.png in Resources */ = {isa = PBXBuildFile; fileRef = B941B3D2308C8046881A70949CE496EF /* close-round.png */; };
+		C96FC9F06FE204C6004AE55D7FDF069B /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CD9812CCCD9ED79B9B97A9974EA45A /* star.png */; };
+		CE304D428676CC75D4E8C34A20AF9924 /* TransitionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09033DD8F6F8731B9AC75B6D0B4E8BC0 /* TransitionLayout.swift */; };
+		CEE12926EFB0BC6AB03771942A7C2DB0 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3419DF11409D513127FFE405B951C6 /* heart.png */; };
+		E68DB70743BA87355B6E4AC462A016BC /* LiquidFloatingActionButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1757F1F0F3215A4475F71C247F247640 /* LiquidFloatingActionButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFC4D4D1A8EA8BDF04D7E3BBDCC2FAFE /* SlideMenuControllerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 675BC45FA0CDFB575822E4DF71978C17 /* SlideMenuControllerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1E8CE064B0F2199051E9CF69A693BDA3 /* PBXContainerItemProxy */ = {
+		06AC7A30BE4ABB80CC7FAEF4FB623E25 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 62BDD710F761A9FAA74F4010A24BF66D;
-			remoteInfo = LiquidFloatingActionButton;
+			remoteGlobalIDString = EF1ABE20DAA23760FBF0359740C1F0B9;
+			remoteInfo = FCAlertView;
 		};
-		4C7BCB43114A6F0C7569CD906BB1D9CE /* PBXContainerItemProxy */ = {
+		32932EDC3FAA8184B9EDDDBBCA1BCF5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1613271357771814C71601D90B787D94;
+			remoteInfo = "FCAlertView-FCAlertView";
+		};
+		789713B38A37B9A130B5DBFF1F9DD33F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4B815F139829CD2C383A9E288DB6AF2D;
 			remoteInfo = DisplaySwitcher;
 		};
+		A92B226296816E1EA15E41B8D665D4FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62BDD710F761A9FAA74F4010A24BF66D;
+			remoteInfo = LiquidFloatingActionButton;
+		};
+		D4992CAA809F261516E3FF966531FE3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D97C999015C8F19298AD1BE48FDAE9B;
+			remoteInfo = SlideMenuControllerSwift;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		000C1DEBFC4217C75C0DB3F80FED6B4A /* Pods-ScannerPlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScannerPlus.debug.xcconfig"; sourceTree = "<group>"; };
-		0211BFDCBE15D2690FD6B6087FD59BF9 /* DisplaySwitcher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DisplaySwitcher-umbrella.h"; sourceTree = "<group>"; };
-		09DD55D4C55B7D2D5C9DD408FD0F4A03 /* TransitionLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionLayout.swift; path = Pod/Classes/TransitionLayout/TransitionLayout.swift; sourceTree = "<group>"; };
-		0CA4776628709BCC7D506C1002ACB067 /* LiquidFloatingActionButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LiquidFloatingActionButton-umbrella.h"; sourceTree = "<group>"; };
-		1E09AEDF0301519C1AFBB0313C99FB62 /* DisplaySwitcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DisplaySwitcher.framework; path = DisplaySwitcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		217F71E0DE1CFEB3DFE8359A6EF3443D /* LiquidFloatingActionButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LiquidFloatingActionButton-dummy.m"; sourceTree = "<group>"; };
-		22175C66D6D6EE6CA1462115DB295ED7 /* ArrayEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayEx.swift; path = Pod/Classes/ArrayEx.swift; sourceTree = "<group>"; };
-		33244A7D68C913FF4F3A86E3192A9FF1 /* LiquittableCircle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LiquittableCircle.swift; path = Pod/Classes/LiquittableCircle.swift; sourceTree = "<group>"; };
+		06D5C008EF62978642BD69625E39A5B7 /* SimpleCircleLiquidEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleCircleLiquidEngine.swift; path = Pod/Classes/SimpleCircleLiquidEngine.swift; sourceTree = "<group>"; };
+		09033DD8F6F8731B9AC75B6D0B4E8BC0 /* TransitionLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionLayout.swift; path = Pod/Classes/TransitionLayout/TransitionLayout.swift; sourceTree = "<group>"; };
+		0ABDABD94CBE381D7AF1C65511571969 /* SlideMenuControllerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SlideMenuControllerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E86767B9B5F52C4D3C06F8C765E9486 /* Pods_ScannerPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScannerPlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1757F1F0F3215A4475F71C247F247640 /* LiquidFloatingActionButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LiquidFloatingActionButton-umbrella.h"; sourceTree = "<group>"; };
+		1CE1D82D7CD771418EAF566443633610 /* CGPointEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPointEx.swift; path = Pod/Classes/CGPointEx.swift; sourceTree = "<group>"; };
+		207F2825C67D8A8FE33718972DD74BB9 /* ResourceBundle-FCAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FCAlertView-Info.plist"; sourceTree = "<group>"; };
+		2464490937E94C765BC86CCDFC076F2E /* LiquittableCircle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LiquittableCircle.swift; path = Pod/Classes/LiquittableCircle.swift; sourceTree = "<group>"; };
+		252BE345BEF147F975DDF9B3A906C29E /* LiquidFloatingActionButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LiquidFloatingActionButton.modulemap; sourceTree = "<group>"; };
+		2BF8F238B770BCC83A16BADDC5CC6089 /* DisplaySwitchLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisplaySwitchLayoutAttributes.swift; path = Pod/Classes/Layouts/DisplaySwitchLayoutAttributes.swift; sourceTree = "<group>"; };
+		328D51DF22EC37AA881FD4466789AD22 /* FCAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCAlertView-prefix.pch"; sourceTree = "<group>"; };
+		334D4F38A1D7BC21B2739B667408EECC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7BA2FBF24AAD2BA91FD1231ED274E6 /* LiquidFloatingActionButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LiquidFloatingActionButton-prefix.pch"; sourceTree = "<group>"; };
 		40D2BEF4FC4E1141FCA4826DEB85D578 /* Pods-ScannerPlus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScannerPlus-dummy.m"; sourceTree = "<group>"; };
-		43F0096FED8F6D4DCAC02A82A420A202 /* DisplaySwitcher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DisplaySwitcher.xcconfig; sourceTree = "<group>"; };
-		447D9A4E07500DE9017818779D957670 /* DisplaySwitcher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DisplaySwitcher-dummy.m"; sourceTree = "<group>"; };
+		427C157B4717D55A9B5504227F5C1AC1 /* DisplaySwitchLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisplaySwitchLayout.swift; path = Pod/Classes/Layouts/DisplaySwitchLayout.swift; sourceTree = "<group>"; };
+		42E3B99F3DE2668C1B015317D3B1D562 /* FCAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FCAlertView.h; path = FCAlertView/Classes/FCAlertView.h; sourceTree = "<group>"; };
+		4311C3EA9B98075971CD5B3DB957C579 /* checkmark-round.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "checkmark-round.png"; path = "FCAlertView/Assets/checkmark-round.png"; sourceTree = "<group>"; };
+		435561580339905091182D590027E186 /* CGRectEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectEx.swift; path = Pod/Classes/CGRectEx.swift; sourceTree = "<group>"; };
+		43CF8BE956B1CB775126F3AB1155252C /* SlideMenuControllerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideMenuControllerSwift-prefix.pch"; sourceTree = "<group>"; };
 		44A17F59F65575D2885578680EC615E5 /* Pods-ScannerPlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScannerPlus.release.xcconfig"; sourceTree = "<group>"; };
 		49456C7728CCDD42ADFD54165CF58EDC /* Pods-ScannerPlus-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScannerPlus-resources.sh"; sourceTree = "<group>"; };
-		4F89FA982B6B9F7314CCB814EC950137 /* DisplaySwitcher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DisplaySwitcher-prefix.pch"; sourceTree = "<group>"; };
+		53BE48070697EB1B25C18821EF498143 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55C8CDB7E155520E5E51ED4011E39E74 /* Pods-ScannerPlus-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScannerPlus-frameworks.sh"; sourceTree = "<group>"; };
-		5C0B6C42C67B9BB908615304EB7BABE6 /* DisplaySwitchLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisplaySwitchLayout.swift; path = Pod/Classes/Layouts/DisplaySwitchLayout.swift; sourceTree = "<group>"; };
+		57160D9C27D6A25FB1ACC99F9F217641 /* LiquidFloatingActionButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LiquidFloatingActionButton.xcconfig; sourceTree = "<group>"; };
+		645838ACD1EA75D4F2C01BC4FB0EE993 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		690A770AFB84ADB384EC7CE6C36FB7CD /* LiquidFloatingActionButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LiquidFloatingActionButton-prefix.pch"; sourceTree = "<group>"; };
-		6D1F4A587792BE96496A16B3A7BDB2E3 /* LiquidUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LiquidUtil.swift; path = Pod/Classes/LiquidUtil.swift; sourceTree = "<group>"; };
+		675BC45FA0CDFB575822E4DF71978C17 /* SlideMenuControllerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideMenuControllerSwift-umbrella.h"; sourceTree = "<group>"; };
 		74C6AB6FAE2A650DEDBCC518A8B6AF15 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C4D52FC78728D512F21614869BE07B3 /* LiquidFloatingActionButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LiquidFloatingActionButton.modulemap; sourceTree = "<group>"; };
-		816E6B7B5689D5B8DF5111391258D374 /* DisplaySwitchLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisplaySwitchLayoutAttributes.swift; path = Pod/Classes/Layouts/DisplaySwitchLayoutAttributes.swift; sourceTree = "<group>"; };
+		75DCDFFC56CCECDB0C3423C1402B042C /* DisplaySwitcher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DisplaySwitcher.modulemap; sourceTree = "<group>"; };
+		7A46CE404D212BF4258B8645C2C03F75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C4345DE9E34593CBD956C390743AEE0 /* FCAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FCAlertView.xcconfig; sourceTree = "<group>"; };
+		80FB52EF9876AC1DD86E66EC4C89B426 /* FCAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FCAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AE2FD2E285EFC93C379AC885D7ADF4 /* DisplaySwitcher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DisplaySwitcher-umbrella.h"; sourceTree = "<group>"; };
 		83C471A84EDF957F7B7D565C53929027 /* Pods-ScannerPlus-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScannerPlus-acknowledgements.markdown"; sourceTree = "<group>"; };
-		87E8EBDE732AFADBDAF218F964832500 /* UIColorEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorEx.swift; path = Pod/Classes/UIColorEx.swift; sourceTree = "<group>"; };
-		8C605E42F760DE3D6D4AB1805A3C7B57 /* SimpleCircleLiquidEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleCircleLiquidEngine.swift; path = Pod/Classes/SimpleCircleLiquidEngine.swift; sourceTree = "<group>"; };
-		8E556627A96D72796329FB5859796BC4 /* LiquidFloatingActionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LiquidFloatingActionButton.swift; path = Pod/Classes/LiquidFloatingActionButton.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9AEB3989C204447EF442188D3F57C705 /* TransitionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionManager.swift; path = Pod/Classes/TransitionManager/TransitionManager.swift; sourceTree = "<group>"; };
-		ABF9B8D0D3F86F11616D34D4F006271A /* LiquidFloatingActionButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LiquidFloatingActionButton.xcconfig; sourceTree = "<group>"; };
-		AF6B34AC9A78CF0D1C79BF50E51CDC7F /* CGPointEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPointEx.swift; path = Pod/Classes/CGPointEx.swift; sourceTree = "<group>"; };
-		B5105B8205E72C8F37C808AA881995B3 /* DisplaySwitcher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DisplaySwitcher.modulemap; sourceTree = "<group>"; };
-		B6A4762229E6C06DB0ED4E555BA1B093 /* CGRectEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectEx.swift; path = Pod/Classes/CGRectEx.swift; sourceTree = "<group>"; };
+		8CF4500D68DBD1D871E9F0A66BD0DB97 /* FCAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FCAlertView-dummy.m"; sourceTree = "<group>"; };
+		9013DDE1EBAF09482FAD9DA3C5FE67A0 /* LiquidFloatingActionButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LiquidFloatingActionButton-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C6F5473F2DE2A9D0094B6CEC5DF017A /* SlideMenuControllerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SlideMenuControllerSwift.xcconfig; sourceTree = "<group>"; };
+		9DE2CA71618A3DA02D404F87F29BAE6C /* SwitchLayoutButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchLayoutButton.swift; path = Pod/Classes/Views/SwitchLayoutButton.swift; sourceTree = "<group>"; };
+		9F97270A393D71D67FFF516304012FA1 /* DisplaySwitcher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DisplaySwitcher.xcconfig; sourceTree = "<group>"; };
+		A2B29A29FF97E9CE527DE377110E9CA9 /* SlideMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideMenuController.swift; path = Source/SlideMenuController.swift; sourceTree = "<group>"; };
+		A2D0C0A5EDA62F7CA4562BEED5F3AF33 /* LiquidFloatingActionButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LiquidFloatingActionButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBB6BBEC1E6FB338F2C4351CCEB67CF /* alert-round.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alert-round.png"; path = "FCAlertView/Assets/alert-round.png"; sourceTree = "<group>"; };
+		B312651B9DA32DCC65B355E4A9C903B2 /* SlideMenuControllerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SlideMenuControllerSwift-dummy.m"; sourceTree = "<group>"; };
+		B6FF9B7AD5EDD7E3496FFC068FDB3B37 /* DisplaySwitcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DisplaySwitcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7074B6E24C1B75F345332B77E5D923B /* DisplaySwitcher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DisplaySwitcher-dummy.m"; sourceTree = "<group>"; };
+		B89C577A91FB682F7758D68A9441CD9D /* LiquidUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LiquidUtil.swift; path = Pod/Classes/LiquidUtil.swift; sourceTree = "<group>"; };
+		B941B3D2308C8046881A70949CE496EF /* close-round.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close-round.png"; path = "FCAlertView/Assets/close-round.png"; sourceTree = "<group>"; };
+		BA3419DF11409D513127FFE405B951C6 /* heart.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = heart.png; path = FCAlertView/Assets/heart.png; sourceTree = "<group>"; };
+		BC5CBC8EFE893143E6985A9C96CC0E43 /* TransitionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionManager.swift; path = Pod/Classes/TransitionManager/TransitionManager.swift; sourceTree = "<group>"; };
+		BE3E0B7F4614D201233F09B44650C498 /* DisplaySwitcher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DisplaySwitcher-prefix.pch"; sourceTree = "<group>"; };
+		BE8C23F97A380338244EA7C9DC5E65B6 /* ArrayEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayEx.swift; path = Pod/Classes/ArrayEx.swift; sourceTree = "<group>"; };
 		BEB0A3691C8C73B7CFDB46A9D5069F98 /* Pods-ScannerPlus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScannerPlus-umbrella.h"; sourceTree = "<group>"; };
-		C25B4583B4C390E1D3CD6DF6AB65E538 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CBE23332A8DC0F1D3B0D83D07F3AD76B /* Pods-ScannerPlus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ScannerPlus.modulemap"; sourceTree = "<group>"; };
-		DC5B4B88204D315FC0073F6BA5030511 /* Pods_ScannerPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScannerPlus.framework; path = "Pods-ScannerPlus.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED7F3A587F7CA5F9BE69E0DF324A6FB /* LiquidFloatingActionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LiquidFloatingActionButton.swift; path = Pod/Classes/LiquidFloatingActionButton.swift; sourceTree = "<group>"; };
+		C478EF2F6589323A385B11337847FA72 /* FCAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FCAlertView.modulemap; sourceTree = "<group>"; };
+		CBE23332A8DC0F1D3B0D83D07F3AD76B /* Pods-ScannerPlus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ScannerPlus.modulemap"; sourceTree = "<group>"; };
+		CC17273854DEC140F5537211CF28C20A /* UIColorEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorEx.swift; path = Pod/Classes/UIColorEx.swift; sourceTree = "<group>"; };
+		CD87133D3A840BA8EFFB2872A89AD73D /* FCAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FCAlertView.m; path = FCAlertView/Classes/FCAlertView.m; sourceTree = "<group>"; };
+		D5BE25435C43AE7CCD6421136977009F /* FCAlertView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FCAlertView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		E32CAB4892365F6A99755AD1E1DF39DD /* Pods-ScannerPlus-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScannerPlus-acknowledgements.plist"; sourceTree = "<group>"; };
-		EFCD71EA9467D691165768F5B24B941F /* LiquidFloatingActionButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LiquidFloatingActionButton.framework; path = LiquidFloatingActionButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4A9098F3AE1299996BB14193CC9A000 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4C7FE40B42D3D2A5A4782CD1437EC41 /* SwitchLayoutButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchLayoutButton.swift; path = Pod/Classes/Views/SwitchLayoutButton.swift; sourceTree = "<group>"; };
+		E3CD9812CCCD9ED79B9B97A9974EA45A /* star.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = star.png; path = FCAlertView/Assets/star.png; sourceTree = "<group>"; };
+		E5724154C085C69E478E1DD123E997A0 /* SlideMenuControllerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SlideMenuControllerSwift.modulemap; sourceTree = "<group>"; };
+		F17ABAA00480328953CE4782123E6DAF /* FCAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCAlertView-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +160,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37D08CEA3F4CB675D92EB15EB8914440 /* Frameworks */ = {
+		1047C6535A86077A30CDE388D8404268 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D036CBC20A049055A65E5E5E0D901432 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A638A9DA59264E722543D3404CDD7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829568A31799E733A4BB6C98A5F7C9DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788890EBABA4B48259DCF1CC85EBC36F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFCC6F2C2D4DE0C51D1C028C420C818 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8159CAB96A39E0836AAA814D7FFBD305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518A7348D349718B58417FAB16B088CD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +202,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24DD455410656EBFFAFB757E202ABECC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6FF9B7AD5EDD7E3496FFC068FDB3B37 /* DisplaySwitcher.framework */,
+				D5BE25435C43AE7CCD6421136977009F /* FCAlertView.bundle */,
+				80FB52EF9876AC1DD86E66EC4C89B426 /* FCAlertView.framework */,
+				A2D0C0A5EDA62F7CA4562BEED5F3AF33 /* LiquidFloatingActionButton.framework */,
+				0E86767B9B5F52C4D3C06F8C765E9486 /* Pods_ScannerPlus.framework */,
+				0ABDABD94CBE381D7AF1C65511571969 /* SlideMenuControllerSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31FF9D6AE32AFD7C9DE57B058B90AB19 /* FCAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				42E3B99F3DE2668C1B015317D3B1D562 /* FCAlertView.h */,
+				CD87133D3A840BA8EFFB2872A89AD73D /* FCAlertView.m */,
+				F587FDD1AC5BC972FF606EC3049C0AE0 /* Resources */,
+				99C82AFA321EFE977AAB953B8B150176 /* Support Files */,
+			);
+			path = FCAlertView;
+			sourceTree = "<group>";
+		};
 		341AAE336F066C67451DA5A8D6D61118 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,18 +234,38 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4C0F5FFE44C27B735B1233880C7C67AE /* DisplaySwitcher */ = {
+		3AEC472BEDD597796C34E54D9B7AA387 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5C0B6C42C67B9BB908615304EB7BABE6 /* DisplaySwitchLayout.swift */,
-				816E6B7B5689D5B8DF5111391258D374 /* DisplaySwitchLayoutAttributes.swift */,
-				F4C7FE40B42D3D2A5A4782CD1437EC41 /* SwitchLayoutButton.swift */,
-				09DD55D4C55B7D2D5C9DD408FD0F4A03 /* TransitionLayout.swift */,
-				9AEB3989C204447EF442188D3F57C705 /* TransitionManager.swift */,
-				8D7472EAD193E64B0ED17D89B8239092 /* Support Files */,
+				DFFBAF719708B1B6D8D9F17B18FA2445 /* DisplaySwitcher */,
+				31FF9D6AE32AFD7C9DE57B058B90AB19 /* FCAlertView */,
+				FE22B9AA8197B3248CBC207C3FC6E4C0 /* LiquidFloatingActionButton */,
+				45CE6D06C3AEC85FFF0F3925A1388DA8 /* SlideMenuControllerSwift */,
 			);
-			name = DisplaySwitcher;
-			path = DisplaySwitcher;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		45CE6D06C3AEC85FFF0F3925A1388DA8 /* SlideMenuControllerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A2B29A29FF97E9CE527DE377110E9CA9 /* SlideMenuController.swift */,
+				D9DA4BBC6E251AAFE233661FECAD543D /* Support Files */,
+			);
+			path = SlideMenuControllerSwift;
+			sourceTree = "<group>";
+		};
+		47156D60968D8F3AF36BA0EB6262FEAD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A46CE404D212BF4258B8645C2C03F75 /* Info.plist */,
+				252BE345BEF147F975DDF9B3A906C29E /* LiquidFloatingActionButton.modulemap */,
+				57160D9C27D6A25FB1ACC99F9F217641 /* LiquidFloatingActionButton.xcconfig */,
+				9013DDE1EBAF09482FAD9DA3C5FE67A0 /* LiquidFloatingActionButton-dummy.m */,
+				3F7BA2FBF24AAD2BA91FD1231ED274E6 /* LiquidFloatingActionButton-prefix.pch */,
+				1757F1F0F3215A4475F71C247F247640 /* LiquidFloatingActionButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LiquidFloatingActionButton";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -146,38 +273,25 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				FB4E8EEC27FD858F78D873D3CEF4623D /* Pods */,
-				B744177AEA9390EB352ED9847137EC34 /* Products */,
+				3AEC472BEDD597796C34E54D9B7AA387 /* Pods */,
+				24DD455410656EBFFAFB757E202ABECC /* Products */,
 				341AAE336F066C67451DA5A8D6D61118 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8D7472EAD193E64B0ED17D89B8239092 /* Support Files */ = {
+		99C82AFA321EFE977AAB953B8B150176 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B5105B8205E72C8F37C808AA881995B3 /* DisplaySwitcher.modulemap */,
-				43F0096FED8F6D4DCAC02A82A420A202 /* DisplaySwitcher.xcconfig */,
-				447D9A4E07500DE9017818779D957670 /* DisplaySwitcher-dummy.m */,
-				4F89FA982B6B9F7314CCB814EC950137 /* DisplaySwitcher-prefix.pch */,
-				0211BFDCBE15D2690FD6B6087FD59BF9 /* DisplaySwitcher-umbrella.h */,
-				F4A9098F3AE1299996BB14193CC9A000 /* Info.plist */,
+				C478EF2F6589323A385B11337847FA72 /* FCAlertView.modulemap */,
+				7C4345DE9E34593CBD956C390743AEE0 /* FCAlertView.xcconfig */,
+				8CF4500D68DBD1D871E9F0A66BD0DB97 /* FCAlertView-dummy.m */,
+				328D51DF22EC37AA881FD4466789AD22 /* FCAlertView-prefix.pch */,
+				F17ABAA00480328953CE4782123E6DAF /* FCAlertView-umbrella.h */,
+				334D4F38A1D7BC21B2739B667408EECC /* Info.plist */,
+				207F2825C67D8A8FE33718972DD74BB9 /* ResourceBundle-FCAlertView-Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/DisplaySwitcher";
-			sourceTree = "<group>";
-		};
-		8F20C4F40563E8277CA75CA44DE25266 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C25B4583B4C390E1D3CD6DF6AB65E538 /* Info.plist */,
-				7C4D52FC78728D512F21614869BE07B3 /* LiquidFloatingActionButton.modulemap */,
-				ABF9B8D0D3F86F11616D34D4F006271A /* LiquidFloatingActionButton.xcconfig */,
-				217F71E0DE1CFEB3DFE8359A6EF3443D /* LiquidFloatingActionButton-dummy.m */,
-				690A770AFB84ADB384EC7CE6C36FB7CD /* LiquidFloatingActionButton-prefix.pch */,
-				0CA4776628709BCC7D506C1002ACB067 /* LiquidFloatingActionButton-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/LiquidFloatingActionButton";
+			path = "../Target Support Files/FCAlertView";
 			sourceTree = "<group>";
 		};
 		9A1A8B0E958B6D86EF40DB1406935DAE /* Pods-ScannerPlus */ = {
@@ -198,31 +312,18 @@
 			path = "Target Support Files/Pods-ScannerPlus";
 			sourceTree = "<group>";
 		};
-		A9BBA67E97849C5EA3D0FC605C14E3E4 /* LiquidFloatingActionButton */ = {
+		AB96D97CBCBDE9216C342498E96EC77D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				22175C66D6D6EE6CA1462115DB295ED7 /* ArrayEx.swift */,
-				AF6B34AC9A78CF0D1C79BF50E51CDC7F /* CGPointEx.swift */,
-				B6A4762229E6C06DB0ED4E555BA1B093 /* CGRectEx.swift */,
-				8E556627A96D72796329FB5859796BC4 /* LiquidFloatingActionButton.swift */,
-				6D1F4A587792BE96496A16B3A7BDB2E3 /* LiquidUtil.swift */,
-				33244A7D68C913FF4F3A86E3192A9FF1 /* LiquittableCircle.swift */,
-				8C605E42F760DE3D6D4AB1805A3C7B57 /* SimpleCircleLiquidEngine.swift */,
-				87E8EBDE732AFADBDAF218F964832500 /* UIColorEx.swift */,
-				8F20C4F40563E8277CA75CA44DE25266 /* Support Files */,
+				75DCDFFC56CCECDB0C3423C1402B042C /* DisplaySwitcher.modulemap */,
+				9F97270A393D71D67FFF516304012FA1 /* DisplaySwitcher.xcconfig */,
+				B7074B6E24C1B75F345332B77E5D923B /* DisplaySwitcher-dummy.m */,
+				BE3E0B7F4614D201233F09B44650C498 /* DisplaySwitcher-prefix.pch */,
+				82AE2FD2E285EFC93C379AC885D7ADF4 /* DisplaySwitcher-umbrella.h */,
+				645838ACD1EA75D4F2C01BC4FB0EE993 /* Info.plist */,
 			);
-			name = LiquidFloatingActionButton;
-			path = LiquidFloatingActionButton;
-			sourceTree = "<group>";
-		};
-		B744177AEA9390EB352ED9847137EC34 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1E09AEDF0301519C1AFBB0313C99FB62 /* DisplaySwitcher.framework */,
-				EFCD71EA9467D691165768F5B24B941F /* LiquidFloatingActionButton.framework */,
-				DC5B4B88204D315FC0073F6BA5030511 /* Pods_ScannerPlus.framework */,
-			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/DisplaySwitcher";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -241,23 +342,78 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FB4E8EEC27FD858F78D873D3CEF4623D /* Pods */ = {
+		D9DA4BBC6E251AAFE233661FECAD543D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4C0F5FFE44C27B735B1233880C7C67AE /* DisplaySwitcher */,
-				A9BBA67E97849C5EA3D0FC605C14E3E4 /* LiquidFloatingActionButton */,
+				53BE48070697EB1B25C18821EF498143 /* Info.plist */,
+				E5724154C085C69E478E1DD123E997A0 /* SlideMenuControllerSwift.modulemap */,
+				9C6F5473F2DE2A9D0094B6CEC5DF017A /* SlideMenuControllerSwift.xcconfig */,
+				B312651B9DA32DCC65B355E4A9C903B2 /* SlideMenuControllerSwift-dummy.m */,
+				43CF8BE956B1CB775126F3AB1155252C /* SlideMenuControllerSwift-prefix.pch */,
+				675BC45FA0CDFB575822E4DF71978C17 /* SlideMenuControllerSwift-umbrella.h */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/SlideMenuControllerSwift";
+			sourceTree = "<group>";
+		};
+		DFFBAF719708B1B6D8D9F17B18FA2445 /* DisplaySwitcher */ = {
+			isa = PBXGroup;
+			children = (
+				427C157B4717D55A9B5504227F5C1AC1 /* DisplaySwitchLayout.swift */,
+				2BF8F238B770BCC83A16BADDC5CC6089 /* DisplaySwitchLayoutAttributes.swift */,
+				9DE2CA71618A3DA02D404F87F29BAE6C /* SwitchLayoutButton.swift */,
+				09033DD8F6F8731B9AC75B6D0B4E8BC0 /* TransitionLayout.swift */,
+				BC5CBC8EFE893143E6985A9C96CC0E43 /* TransitionManager.swift */,
+				AB96D97CBCBDE9216C342498E96EC77D /* Support Files */,
+			);
+			path = DisplaySwitcher;
+			sourceTree = "<group>";
+		};
+		F587FDD1AC5BC972FF606EC3049C0AE0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ADBB6BBEC1E6FB338F2C4351CCEB67CF /* alert-round.png */,
+				4311C3EA9B98075971CD5B3DB957C579 /* checkmark-round.png */,
+				B941B3D2308C8046881A70949CE496EF /* close-round.png */,
+				BA3419DF11409D513127FFE405B951C6 /* heart.png */,
+				E3CD9812CCCD9ED79B9B97A9974EA45A /* star.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FE22B9AA8197B3248CBC207C3FC6E4C0 /* LiquidFloatingActionButton */ = {
+			isa = PBXGroup;
+			children = (
+				BE8C23F97A380338244EA7C9DC5E65B6 /* ArrayEx.swift */,
+				1CE1D82D7CD771418EAF566443633610 /* CGPointEx.swift */,
+				435561580339905091182D590027E186 /* CGRectEx.swift */,
+				BED7F3A587F7CA5F9BE69E0DF324A6FB /* LiquidFloatingActionButton.swift */,
+				B89C577A91FB682F7758D68A9441CD9D /* LiquidUtil.swift */,
+				2464490937E94C765BC86CCDFC076F2E /* LiquittableCircle.swift */,
+				06D5C008EF62978642BD69625E39A5B7 /* SimpleCircleLiquidEngine.swift */,
+				CC17273854DEC140F5537211CF28C20A /* UIColorEx.swift */,
+				47156D60968D8F3AF36BA0EB6262FEAD /* Support Files */,
+			);
+			path = LiquidFloatingActionButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		55B18B44E3F6E9DAFED804FC1338D956 /* Headers */ = {
+		13CC077374C4E126EA6B786AF09293D2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4243FC835C96599DA1B8085F7B852AF4 /* Pods-ScannerPlus-umbrella.h in Headers */,
+				6F036EDB3C6F4D77407B93978853D66A /* FCAlertView-umbrella.h in Headers */,
+				20BAB5D59DF7BD045F079334AAA64ACA /* FCAlertView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B266CB37C071AB351E46F6DD09173B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC4D4D1A8EA8BDF04D7E3BBDCC2FAFE /* SlideMenuControllerSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,9 +433,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EDA0BF52DA3C8E40B683BD4A263155B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A21318139FF99CF4CAAC436EE68EAD3 /* Pods-ScannerPlus-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1613271357771814C71601D90B787D94 /* FCAlertView-FCAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E82A1DE997D99C0DF2CECEF19D52746 /* Build configuration list for PBXNativeTarget "FCAlertView-FCAlertView" */;
+			buildPhases = (
+				D36415FC0EF378A99093F211F254C4A3 /* Sources */,
+				1047C6535A86077A30CDE388D8404268 /* Frameworks */,
+				519D8BF34584C829B7275E0542B21053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FCAlertView-FCAlertView";
+			productName = "FCAlertView-FCAlertView";
+			productReference = D5BE25435C43AE7CCD6421136977009F /* FCAlertView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		4B815F139829CD2C383A9E288DB6AF2D /* DisplaySwitcher */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 271AAB1A02E7752FA3B9B01B0FB9DE36 /* Build configuration list for PBXNativeTarget "DisplaySwitcher" */;
@@ -294,7 +475,24 @@
 			);
 			name = DisplaySwitcher;
 			productName = DisplaySwitcher;
-			productReference = 1E09AEDF0301519C1AFBB0313C99FB62 /* DisplaySwitcher.framework */;
+			productReference = B6FF9B7AD5EDD7E3496FFC068FDB3B37 /* DisplaySwitcher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5D97C999015C8F19298AD1BE48FDAE9B /* SlideMenuControllerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA3B7991B111E13122ABCECFAC2C021 /* Build configuration list for PBXNativeTarget "SlideMenuControllerSwift" */;
+			buildPhases = (
+				4E20BB769CEB97868176F6DB2647B95B /* Sources */,
+				64A638A9DA59264E722543D3404CDD7C /* Frameworks */,
+				49B266CB37C071AB351E46F6DD09173B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlideMenuControllerSwift;
+			productName = SlideMenuControllerSwift;
+			productReference = 0ABDABD94CBE381D7AF1C65511571969 /* SlideMenuControllerSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		62BDD710F761A9FAA74F4010A24BF66D /* LiquidFloatingActionButton */ = {
@@ -311,26 +509,47 @@
 			);
 			name = LiquidFloatingActionButton;
 			productName = LiquidFloatingActionButton;
-			productReference = EFCD71EA9467D691165768F5B24B941F /* LiquidFloatingActionButton.framework */;
+			productReference = A2D0C0A5EDA62F7CA4562BEED5F3AF33 /* LiquidFloatingActionButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9C8805DF7991FC087C178468D95760F5 /* Pods-ScannerPlus */ = {
+		BF76E1D67F4C857D3DA8894489BF132E /* Pods-ScannerPlus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 087A460445E3AC71914722D9162B67CB /* Build configuration list for PBXNativeTarget "Pods-ScannerPlus" */;
+			buildConfigurationList = 3FFE3922959D202A02FD0CFF44A799FA /* Build configuration list for PBXNativeTarget "Pods-ScannerPlus" */;
 			buildPhases = (
-				D692A2B9FAD230168F9CAC1DFDEEAD6C /* Sources */,
-				37D08CEA3F4CB675D92EB15EB8914440 /* Frameworks */,
-				55B18B44E3F6E9DAFED804FC1338D956 /* Headers */,
+				B4EDEFC08FF3F7E6DF128057556ECAA1 /* Sources */,
+				788890EBABA4B48259DCF1CC85EBC36F /* Frameworks */,
+				EDA0BF52DA3C8E40B683BD4A263155B1 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9E0B2320C12BE0E497665EF575C085D0 /* PBXTargetDependency */,
-				7D68984FEDAD3C81C38F75DBE62B49E7 /* PBXTargetDependency */,
+				A18F39D5AE7C9FE67894BC84496581CA /* PBXTargetDependency */,
+				8A4604A5EF18A5ED91708F640843A5A4 /* PBXTargetDependency */,
+				BAECE10923ACFDCE401C2073699FC2F1 /* PBXTargetDependency */,
+				A7E305F51E23A5A5D418D0F8B5A192A2 /* PBXTargetDependency */,
 			);
 			name = "Pods-ScannerPlus";
 			productName = "Pods-ScannerPlus";
-			productReference = DC5B4B88204D315FC0073F6BA5030511 /* Pods_ScannerPlus.framework */;
+			productReference = 0E86767B9B5F52C4D3C06F8C765E9486 /* Pods_ScannerPlus.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF1ABE20DAA23760FBF0359740C1F0B9 /* FCAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA6C0585D1B3396EA76721ED9ABF898 /* Build configuration list for PBXNativeTarget "FCAlertView" */;
+			buildPhases = (
+				B3EE5904AD57CEBB6A3EABDD17E5F980 /* Sources */,
+				8159CAB96A39E0836AAA814D7FFBD305 /* Frameworks */,
+				9EFDE054B823A3EDE57E82668B162C3F /* Resources */,
+				13CC077374C4E126EA6B786AF09293D2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E37634C12DE0AFB113AE9BB570E06D2 /* PBXTargetDependency */,
+			);
+			name = FCAlertView;
+			productName = FCAlertView;
+			productReference = 80FB52EF9876AC1DD86E66EC4C89B426 /* FCAlertView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -350,16 +569,42 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B744177AEA9390EB352ED9847137EC34 /* Products */;
+			productRefGroup = 24DD455410656EBFFAFB757E202ABECC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				4B815F139829CD2C383A9E288DB6AF2D /* DisplaySwitcher */,
+				EF1ABE20DAA23760FBF0359740C1F0B9 /* FCAlertView */,
+				1613271357771814C71601D90B787D94 /* FCAlertView-FCAlertView */,
 				62BDD710F761A9FAA74F4010A24BF66D /* LiquidFloatingActionButton */,
-				9C8805DF7991FC087C178468D95760F5 /* Pods-ScannerPlus */,
+				BF76E1D67F4C857D3DA8894489BF132E /* Pods-ScannerPlus */,
+				5D97C999015C8F19298AD1BE48FDAE9B /* SlideMenuControllerSwift */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		519D8BF34584C829B7275E0542B21053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C548FE59CFBEE5B45C0915A292156CD /* alert-round.png in Resources */,
+				0921F7A022E91ECC7563A2E63CF3E9D0 /* checkmark-round.png in Resources */,
+				C8F994B05558D4A259978E6784A79C0B /* close-round.png in Resources */,
+				CEE12926EFB0BC6AB03771942A7C2DB0 /* heart.png in Resources */,
+				C96FC9F06FE204C6004AE55D7FDF069B /* star.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EFDE054B823A3EDE57E82668B162C3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CD4C9C56D28B0A759AC4E8250B903F /* FCAlertView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2C32FB457251894479DE0F3DD687FC53 /* Sources */ = {
@@ -391,33 +636,76 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D692A2B9FAD230168F9CAC1DFDEEAD6C /* Sources */ = {
+		4E20BB769CEB97868176F6DB2647B95B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				109A0831CF2CB326A483DDA24B3346BA /* Pods-ScannerPlus-dummy.m in Sources */,
+				A9FD7A77342D09BE15060685180D3F1F /* SlideMenuController.swift in Sources */,
+				C67A57220098FC00F2BF444E8618FACD /* SlideMenuControllerSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EE5904AD57CEBB6A3EABDD17E5F980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EAD8DC87EFE35C7E714FBD936B98EDA /* FCAlertView-dummy.m in Sources */,
+				8CAE2E96BE9DAEDF420FB328CB2C30F4 /* FCAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4EDEFC08FF3F7E6DF128057556ECAA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0B9F2B3FD21A5C63CC83DE8F1136B1 /* Pods-ScannerPlus-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36415FC0EF378A99093F211F254C4A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7D68984FEDAD3C81C38F75DBE62B49E7 /* PBXTargetDependency */ = {
+		8A4604A5EF18A5ED91708F640843A5A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = LiquidFloatingActionButton;
-			target = 62BDD710F761A9FAA74F4010A24BF66D /* LiquidFloatingActionButton */;
-			targetProxy = 1E8CE064B0F2199051E9CF69A693BDA3 /* PBXContainerItemProxy */;
+			name = FCAlertView;
+			target = EF1ABE20DAA23760FBF0359740C1F0B9 /* FCAlertView */;
+			targetProxy = 06AC7A30BE4ABB80CC7FAEF4FB623E25 /* PBXContainerItemProxy */;
 		};
-		9E0B2320C12BE0E497665EF575C085D0 /* PBXTargetDependency */ = {
+		9E37634C12DE0AFB113AE9BB570E06D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FCAlertView-FCAlertView";
+			target = 1613271357771814C71601D90B787D94 /* FCAlertView-FCAlertView */;
+			targetProxy = 32932EDC3FAA8184B9EDDDBBCA1BCF5D /* PBXContainerItemProxy */;
+		};
+		A18F39D5AE7C9FE67894BC84496581CA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DisplaySwitcher;
 			target = 4B815F139829CD2C383A9E288DB6AF2D /* DisplaySwitcher */;
-			targetProxy = 4C7BCB43114A6F0C7569CD906BB1D9CE /* PBXContainerItemProxy */;
+			targetProxy = 789713B38A37B9A130B5DBFF1F9DD33F /* PBXContainerItemProxy */;
+		};
+		A7E305F51E23A5A5D418D0F8B5A192A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SlideMenuControllerSwift;
+			target = 5D97C999015C8F19298AD1BE48FDAE9B /* SlideMenuControllerSwift */;
+			targetProxy = D4992CAA809F261516E3FF966531FE3F /* PBXContainerItemProxy */;
+		};
+		BAECE10923ACFDCE401C2073699FC2F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LiquidFloatingActionButton;
+			target = 62BDD710F761A9FAA74F4010A24BF66D /* LiquidFloatingActionButton */;
+			targetProxy = A92B226296816E1EA15E41B8D665D4FF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1B0634979423C5976FB7BCC3C6BC25CE /* Debug */ = {
+		20C01B07CB94C253659BF482D3602109 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 000C1DEBFC4217C75C0DB3F80FED6B4A /* Pods-ScannerPlus.debug.xcconfig */;
 			buildSettings = {
@@ -432,7 +720,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ScannerPlus/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ScannerPlus/Pods-ScannerPlus.modulemap";
@@ -451,9 +739,40 @@
 			};
 			name = Debug;
 		};
+		3C5DF8E1C142F7856440CFB83468EC48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C6F5473F2DE2A9D0094B6CEC5DF017A /* SlideMenuControllerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlideMenuControllerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift.modulemap";
+				PRODUCT_NAME = SlideMenuControllerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		3DC57E9A9ABB8C94F982D4200E84F9A4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABF9B8D0D3F86F11616D34D4F006271A /* LiquidFloatingActionButton.xcconfig */;
+			baseConfigurationReference = 57160D9C27D6A25FB1ACC99F9F217641 /* LiquidFloatingActionButton.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -485,7 +804,7 @@
 		};
 		4BB2A9D8F9049204AC1BFE1A589D2DAA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43F0096FED8F6D4DCAC02A82A420A202 /* DisplaySwitcher.xcconfig */;
+			baseConfigurationReference = 9F97270A393D71D67FFF516304012FA1 /* DisplaySwitcher.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -515,7 +834,109 @@
 			};
 			name = Release;
 		};
-		737290B394CA13E586BB0DA5063BD73D /* Release */ = {
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8428CFDD23321B6AD567017C6F1BA3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57160D9C27D6A25FB1ACC99F9F217641 /* LiquidFloatingActionButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LiquidFloatingActionButton/LiquidFloatingActionButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LiquidFloatingActionButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LiquidFloatingActionButton/LiquidFloatingActionButton.modulemap";
+				PRODUCT_NAME = LiquidFloatingActionButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9172F1EF24641F8271BA4499F3D3B9C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C4345DE9E34593CBD956C390743AEE0 /* FCAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FCAlertView";
+				INFOPLIST_FILE = "Target Support Files/FCAlertView/ResourceBundle-FCAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FCAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		9F13A7255C8B114D59B7B55B4DD88002 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 44A17F59F65575D2885578680EC615E5 /* Pods-ScannerPlus.release.xcconfig */;
 			buildSettings = {
@@ -530,7 +951,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ScannerPlus/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ScannerPlus/Pods-ScannerPlus.modulemap";
@@ -549,7 +970,7 @@
 			};
 			name = Release;
 		};
-		7C07ED8089F70A31B83996A8910D7F18 /* Debug */ = {
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -598,7 +1019,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -609,9 +1030,9 @@
 			};
 			name = Debug;
 		};
-		8428CFDD23321B6AD567017C6F1BA3B0 /* Debug */ = {
+		B5BA00473B8C5CBF28F6BE94D4F77B40 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABF9B8D0D3F86F11616D34D4F006271A /* LiquidFloatingActionButton.xcconfig */;
+			baseConfigurationReference = 7C4345DE9E34593CBD956C390743AEE0 /* FCAlertView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -622,17 +1043,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LiquidFloatingActionButton/LiquidFloatingActionButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LiquidFloatingActionButton/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FCAlertView/FCAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FCAlertView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LiquidFloatingActionButton/LiquidFloatingActionButton.modulemap";
-				PRODUCT_NAME = LiquidFloatingActionButton;
+				MODULEMAP_FILE = "Target Support Files/FCAlertView/FCAlertView.modulemap";
+				PRODUCT_NAME = FCAlertView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -640,64 +1060,88 @@
 			};
 			name = Debug;
 		};
-		98F29E7567052F62660DDD7069ADF73C /* Release */ = {
+		B7BF67ADFA1BB2AE5C637BDDAB41EC1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C4345DE9E34593CBD956C390743AEE0 /* FCAlertView.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FCAlertView/FCAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FCAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FCAlertView/FCAlertView.modulemap";
+				PRODUCT_NAME = FCAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF7B5D4F7F07823027CAE577BEDFFDCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C4345DE9E34593CBD956C390743AEE0 /* FCAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FCAlertView";
+				INFOPLIST_FILE = "Target Support Files/FCAlertView/ResourceBundle-FCAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FCAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		EFE18892A154343CDD2632A13962EF0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C6F5473F2DE2A9D0094B6CEC5DF017A /* SlideMenuControllerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlideMenuControllerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift.modulemap";
+				PRODUCT_NAME = SlideMenuControllerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 		F63AD756C79F3AC74C850989913979E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43F0096FED8F6D4DCAC02A82A420A202 /* DisplaySwitcher.xcconfig */;
+			baseConfigurationReference = 9F97270A393D71D67FFF516304012FA1 /* DisplaySwitcher.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -729,15 +1173,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		087A460445E3AC71914722D9162B67CB /* Build configuration list for PBXNativeTarget "Pods-ScannerPlus" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1B0634979423C5976FB7BCC3C6BC25CE /* Debug */,
-				737290B394CA13E586BB0DA5063BD73D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		271AAB1A02E7752FA3B9B01B0FB9DE36 /* Build configuration list for PBXNativeTarget "DisplaySwitcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -750,8 +1185,35 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C07ED8089F70A31B83996A8910D7F18 /* Debug */,
-				98F29E7567052F62660DDD7069ADF73C /* Release */,
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FFE3922959D202A02FD0CFF44A799FA /* Build configuration list for PBXNativeTarget "Pods-ScannerPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C01B07CB94C253659BF482D3602109 /* Debug */,
+				9F13A7255C8B114D59B7B55B4DD88002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E82A1DE997D99C0DF2CECEF19D52746 /* Build configuration list for PBXNativeTarget "FCAlertView-FCAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7B5D4F7F07823027CAE577BEDFFDCA /* Debug */,
+				9172F1EF24641F8271BA4499F3D3B9C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CA6C0585D1B3396EA76721ED9ABF898 /* Build configuration list for PBXNativeTarget "FCAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5BA00473B8C5CBF28F6BE94D4F77B40 /* Debug */,
+				B7BF67ADFA1BB2AE5C637BDDAB41EC1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -761,6 +1223,15 @@
 			buildConfigurations = (
 				8428CFDD23321B6AD567017C6F1BA3B0 /* Debug */,
 				3DC57E9A9ABB8C94F982D4200E84F9A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA3B7991B111E13122ABCECFAC2C021 /* Build configuration list for PBXNativeTarget "SlideMenuControllerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5DF8E1C142F7856440CFB83468EC48 /* Debug */,
+				EFE18892A154343CDD2632A13962EF0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

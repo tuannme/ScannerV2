@@ -3,7 +3,9 @@
 
 target 'ScannerPlus' do
   use_frameworks!
-  pod 'LiquidFloatingActionButton', :git => 'https://github.com/alexsanderkhitev/LiquidFloatingActionButton.git'
-  pod ‘DisplaySwitcher’
+pod ‘DisplaySwitcher’
+pod 'SlideMenuControllerSwift'
+pod 'FCAlertView'
+pod 'LiquidFloatingActionButton', :git => 'https://github.com/alexsanderkhitev/LiquidFloatingActionButton.git'
 
 end

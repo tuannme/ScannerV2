@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		5FB7CA2F17399245C9D12AE0 /* Pods_ScannerPlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D326E0F9DDF22E95599114AF /* Pods_ScannerPlus.framework */; };
+		CA0356861FF57C2A00D9E14F /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0356851FF57C2A00D9E14F /* ScannerViewController.swift */; };
+		CA0356881FF57CF700D9E14F /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0356871FF57CF700D9E14F /* CameraViewController.swift */; };
+		CA511FE61FF5F44800E2BD52 /* CaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA511FE51FF5F44800E2BD52 /* CaptureView.swift */; };
+		CA511FE81FF5FE8500E2BD52 /* FlashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA511FE71FF5FE8500E2BD52 /* FlashView.swift */; };
+		CA9BD4D81FF4E7C4008F4761 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9BD4D71FF4E7C4008F4761 /* MainViewController.swift */; };
+		CA9BD4DA1FF4E950008F4761 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9BD4D91FF4E950008F4761 /* UIApplication.swift */; };
+		CA9BD4DD1FF4EDC1008F4761 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9BD4DC1FF4EDC1008F4761 /* MenuViewController.swift */; };
+		CAC843541FF7EDF3000D0AB1 /* CloseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC843531FF7EDF3000D0AB1 /* CloseView.swift */; };
 		CAD823B01FF038B90061918F /* ExpandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD823AF1FF038B90061918F /* ExpandView.swift */; };
 		CAD823B21FF03B4F0061918F /* BlurEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD823B11FF03B4F0061918F /* BlurEffectView.swift */; };
 		DF13E8C31FF0ED320056A147 /* DocumentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF13E8C21FF0ED320056A147 /* DocumentItem.swift */; };
@@ -22,10 +30,8 @@
 		DFBED8161FE23C7500636BC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBED8151FE23C7500636BC1 /* Assets.xcassets */; };
 		DFBED8191FE23C7500636BC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFBED8171FE23C7500636BC1 /* LaunchScreen.storyboard */; };
 		DFEA7D651FED03EB00B357D1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA7D641FED03EB00B357D1 /* BaseViewController.swift */; };
-		DFEA7D671FED03FB00B357D1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA7D661FED03FB00B357D1 /* MainViewController.swift */; };
+		DFEA7D671FED03FB00B357D1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA7D661FED03FB00B357D1 /* HomeViewController.swift */; };
 		DFEA7D6A1FED045700B357D1 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA7D691FED045700B357D1 /* Configuration.swift */; };
-		DFEA7D6E1FED04D500B357D1 /* NavigationCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA7D6D1FED04D500B357D1 /* NavigationCustom.swift */; };
-		DFEA7D701FED04EA00B357D1 /* NavigationCustom.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFEA7D6F1FED04EA00B357D1 /* NavigationCustom.xib */; };
 		DFEA7D731FED067E00B357D1 /* BaseViewCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA7D721FED067E00B357D1 /* BaseViewCustom.swift */; };
 		DFEA7D751FED093A00B357D1 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA7D741FED093A00B357D1 /* Constant.swift */; };
 		DFEA7D7B1FED0DBA00B357D1 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA7D7A1FED0DBA00B357D1 /* Color.swift */; };
@@ -34,6 +40,14 @@
 /* Begin PBXFileReference section */
 		5A7DB06D4099915A35F97A6F /* Pods-ScannerPlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerPlus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScannerPlus/Pods-ScannerPlus.debug.xcconfig"; sourceTree = "<group>"; };
 		6C7FC46573ABE99409B15C6F /* Pods-ScannerPlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerPlus.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScannerPlus/Pods-ScannerPlus.release.xcconfig"; sourceTree = "<group>"; };
+		CA0356851FF57C2A00D9E14F /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		CA0356871FF57CF700D9E14F /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		CA511FE51FF5F44800E2BD52 /* CaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureView.swift; sourceTree = "<group>"; };
+		CA511FE71FF5FE8500E2BD52 /* FlashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashView.swift; sourceTree = "<group>"; };
+		CA9BD4D71FF4E7C4008F4761 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CA9BD4D91FF4E950008F4761 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		CA9BD4DC1FF4EDC1008F4761 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		CAC843531FF7EDF3000D0AB1 /* CloseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseView.swift; sourceTree = "<group>"; };
 		CAD823AF1FF038B90061918F /* ExpandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandView.swift; sourceTree = "<group>"; };
 		CAD823B11FF03B4F0061918F /* BlurEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurEffectView.swift; sourceTree = "<group>"; };
 		D326E0F9DDF22E95599114AF /* Pods_ScannerPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScannerPlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,10 +65,8 @@
 		DFBED8181FE23C7500636BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFBED81A1FE23C7500636BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFEA7D641FED03EB00B357D1 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		DFEA7D661FED03FB00B357D1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DFEA7D661FED03FB00B357D1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DFEA7D691FED045700B357D1 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		DFEA7D6D1FED04D500B357D1 /* NavigationCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCustom.swift; sourceTree = "<group>"; };
-		DFEA7D6F1FED04EA00B357D1 /* NavigationCustom.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavigationCustom.xib; sourceTree = "<group>"; };
 		DFEA7D721FED067E00B357D1 /* BaseViewCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewCustom.swift; sourceTree = "<group>"; };
 		DFEA7D741FED093A00B357D1 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		DFEA7D7A1FED0DBA00B357D1 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
@@ -78,6 +90,75 @@
 				D326E0F9DDF22E95599114AF /* Pods_ScannerPlus.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA0356841FF57AE500D9E14F /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				CA511FE31FF5F3FF00E2BD52 /* Camera */,
+				CA0356851FF57C2A00D9E14F /* ScannerViewController.swift */,
+			);
+			path = Scanner;
+			sourceTree = "<group>";
+		};
+		CA511FE31FF5F3FF00E2BD52 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				CA511FE41FF5F40B00E2BD52 /* View */,
+				CA0356871FF57CF700D9E14F /* CameraViewController.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		CA511FE41FF5F40B00E2BD52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CAC843521FF7EDE6000D0AB1 /* CloseView */,
+				CA511FEA1FF60A5300E2BD52 /* FlashView */,
+				CA511FE91FF60A4800E2BD52 /* CaptureView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA511FE91FF60A4800E2BD52 /* CaptureView */ = {
+			isa = PBXGroup;
+			children = (
+				CA511FE51FF5F44800E2BD52 /* CaptureView.swift */,
+			);
+			path = CaptureView;
+			sourceTree = "<group>";
+		};
+		CA511FEA1FF60A5300E2BD52 /* FlashView */ = {
+			isa = PBXGroup;
+			children = (
+				CA511FE71FF5FE8500E2BD52 /* FlashView.swift */,
+			);
+			path = FlashView;
+			sourceTree = "<group>";
+		};
+		CA9BD4D61FF4E7B1008F4761 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DFEA7D641FED03EB00B357D1 /* BaseViewController.swift */,
+				CA9BD4D71FF4E7C4008F4761 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CA9BD4DB1FF4EDB4008F4761 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				CA9BD4DC1FF4EDC1008F4761 /* MenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		CAC843521FF7EDE6000D0AB1 /* CloseView */ = {
+			isa = PBXGroup;
+			children = (
+				CAC843531FF7EDF3000D0AB1 /* CloseView.swift */,
+			);
+			path = CloseView;
 			sourceTree = "<group>";
 		};
 		CAD823AE1FF0389F0061918F /* View */ = {
@@ -155,8 +236,10 @@
 		DFEA7D5F1FED03AC00B357D1 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				DFEA7D631FED03DD00B357D1 /* Base */,
-				DFEA7D621FED03D100B357D1 /* Main */,
+				CA9BD4D61FF4E7B1008F4761 /* Main */,
+				CA0356841FF57AE500D9E14F /* Scanner */,
+				CA9BD4DB1FF4EDB4008F4761 /* Menu */,
+				DFEA7D621FED03D100B357D1 /* Home */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -172,39 +255,21 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		DFEA7D621FED03D100B357D1 /* Main */ = {
+		DFEA7D621FED03D100B357D1 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				DFEA7D661FED03FB00B357D1 /* HomeViewController.swift */,
 				CAD823AE1FF0389F0061918F /* View */,
-				DFEA7D661FED03FB00B357D1 /* MainViewController.swift */,
 			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		DFEA7D631FED03DD00B357D1 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				DFEA7D641FED03EB00B357D1 /* BaseViewController.swift */,
-			);
-			path = Base;
+			path = Home;
 			sourceTree = "<group>";
 		};
 		DFEA7D6B1FED04A600B357D1 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				DFEA7D711FED065F00B357D1 /* BaseViewCustom */,
-				DFEA7D6C1FED04AF00B357D1 /* Navigation */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		DFEA7D6C1FED04AF00B357D1 /* Navigation */ = {
-			isa = PBXGroup;
-			children = (
-				DFEA7D6D1FED04D500B357D1 /* NavigationCustom.swift */,
-				DFEA7D6F1FED04EA00B357D1 /* NavigationCustom.xib */,
-			);
-			path = Navigation;
 			sourceTree = "<group>";
 		};
 		DFEA7D711FED065F00B357D1 /* BaseViewCustom */ = {
@@ -219,6 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				DFEA7D7A1FED0DBA00B357D1 /* Color.swift */,
+				CA9BD4D91FF4E950008F4761 /* UIApplication.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -294,7 +360,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFEA7D701FED04EA00B357D1 /* NavigationCustom.xib in Resources */,
 				DF13E8C61FF0F1CA0056A147 /* DocumentItemCell.xib in Resources */,
 				DF13E8CC1FF0FCB20056A147 /* SearchView.xib in Resources */,
 				DFBED8191FE23C7500636BC1 /* LaunchScreen.storyboard in Resources */,
@@ -347,12 +412,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ScannerPlus/Pods-ScannerPlus-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DisplaySwitcher/DisplaySwitcher.framework",
+				"${BUILT_PRODUCTS_DIR}/FCAlertView/FCAlertView.framework",
 				"${BUILT_PRODUCTS_DIR}/LiquidFloatingActionButton/LiquidFloatingActionButton.framework",
+				"${BUILT_PRODUCTS_DIR}/SlideMenuControllerSwift/SlideMenuControllerSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DisplaySwitcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FCAlertView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LiquidFloatingActionButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SlideMenuControllerSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -367,16 +436,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFEA7D751FED093A00B357D1 /* Constant.swift in Sources */,
+				CA0356881FF57CF700D9E14F /* CameraViewController.swift in Sources */,
+				CA511FE61FF5F44800E2BD52 /* CaptureView.swift in Sources */,
+				CAC843541FF7EDF3000D0AB1 /* CloseView.swift in Sources */,
 				DF4B79211FF0B77300485FFA /* CellInterface.swift in Sources */,
 				DF13E8C31FF0ED320056A147 /* DocumentItem.swift in Sources */,
-				DFEA7D671FED03FB00B357D1 /* MainViewController.swift in Sources */,
-				DFEA7D6E1FED04D500B357D1 /* NavigationCustom.swift in Sources */,
+				CA511FE81FF5FE8500E2BD52 /* FlashView.swift in Sources */,
+				CA0356861FF57C2A00D9E14F /* ScannerViewController.swift in Sources */,
+				DFEA7D671FED03FB00B357D1 /* HomeViewController.swift in Sources */,
 				DF13E8C71FF0F1CA0056A147 /* DocumentItemCell.swift in Sources */,
 				DFEA7D731FED067E00B357D1 /* BaseViewCustom.swift in Sources */,
+				CA9BD4D81FF4E7C4008F4761 /* MainViewController.swift in Sources */,
 				CAD823B21FF03B4F0061918F /* BlurEffectView.swift in Sources */,
 				DFBED80F1FE23C7500636BC1 /* AppDelegate.swift in Sources */,
 				DFEA7D7B1FED0DBA00B357D1 /* Color.swift in Sources */,
+				CA9BD4DA1FF4E950008F4761 /* UIApplication.swift in Sources */,
 				DF13E8CA1FF0FCA40056A147 /* SearchView.swift in Sources */,
+				CA9BD4DD1FF4EDC1008F4761 /* MenuViewController.swift in Sources */,
 				DFEA7D6A1FED045700B357D1 /* Configuration.swift in Sources */,
 				DFEA7D651FED03EB00B357D1 /* BaseViewController.swift in Sources */,
 				DF4B79141FF0B3AE00485FFA /* CollectionView.swift in Sources */,
@@ -521,7 +597,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = USQFGC88U6;
 				INFOPLIST_FILE = ScannerPlus/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dream.ScannerPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -538,7 +614,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = USQFGC88U6;
 				INFOPLIST_FILE = ScannerPlus/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dream.ScannerPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";

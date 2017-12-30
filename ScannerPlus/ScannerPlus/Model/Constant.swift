@@ -10,5 +10,5 @@ import UIKit
 
 
 class Constant{
-    static let AppColor = ""
+    
 }

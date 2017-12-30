@@ -11,20 +11,6 @@ import UIKit
 class Configuration: NSObject {
     static let shareInstance = Configuration()
 
-    enum AppColor:String {
-        case Dark = "Dark"
-        case Light = "Light"
-    }
-    
-    func getAppColor() -> AppColor{
-        let color = getUserDefault(key: Constant.AppColor)
-        return color == AppColor.Dark.rawValue ? AppColor.Dark : AppColor.Light
-    }
-    
-    func setAppColor(color:AppColor){
-        setUserDefault(key: Constant.AppColor, value: color.rawValue)
-    }
-    
     fileprivate func setUserDefault(key:String,value:String){
         UserDefaults.standard.set(value, forKey: key)
     }
