@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Folder" representedClassName="Folder" syncable="YES" codeGenerationType="class">
+        <attribute name="createDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="contain" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Photo" inverseName="located" inverseEntity="Photo" syncable="YES"/>
+    </entity>
+    <entity name="Photo" representedClassName="Photo" syncable="YES" codeGenerationType="class">
+        <attribute name="createDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="data" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="located" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Folder" inverseName="contain" inverseEntity="Folder" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Folder" positionX="-344" positionY="-6" width="128" height="88"/>
+        <element name="Photo" positionX="-54" positionY="18" width="128" height="105"/>
+    </elements>
+</model>

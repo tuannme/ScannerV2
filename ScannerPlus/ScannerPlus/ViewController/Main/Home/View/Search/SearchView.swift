@@ -15,6 +15,7 @@ class SearchView: BaseViewCustom {
     
     override func setupView() {
         super.setupView()
+
         searchBar.layer.borderColor = UIColor.clear.cgColor
         searchBar.backgroundImage = UIImage()
         searchBar.delegate = self

@@ -20,7 +20,7 @@ class HomeViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        loadData()
         expandView.didSelecteItem = {
              item in
             switch item {
@@ -48,16 +48,36 @@ class HomeViewController: BaseViewController {
     
     func showAlertCreateNewFolder(){
         let alert = FCAlertView()
-        let textFiled = UITextField()
-        alert.addTextField(withCustomTextField: textFiled, andPlaceholder: "Enter name") { (folderName) in
-            
-        }
+        let mTextField = UITextField()
+        alert.addTextField(withCustomTextField: mTextField, andPlaceholder: "Folder name", andTextReturn: {text in})
         alert.showAlert(inView: self,
-                        withTitle: "hello",
-                        withSubtitle: "hey guys",
+                        withTitle: "Create new folder",
+                        withSubtitle: "",
                         withCustomImage: #imageLiteral(resourceName: "new_folder"),
                         withDoneButtonTitle: "Done",
                         andButtons: [])
+        
+        alert.addButton("Cancel", withActionBlock: nil)
+        alert.doneBlock = {
+            if let folerName = mTextField.text, folerName.count > 0 {
+                CoreDataManager.sharedInstance.createNewFolder(name:folerName)
+                self.loadData()
+                alert.dismiss()
+            }
+        }
+    }
+    
+    func loadData(){
+        documentItems.removeAll()
+        let allFolder = CoreDataManager.sharedInstance.fetFolder()
+        for folderResult in allFolder{
+            let docItem = DocumentItem()
+            docItem.createDate = folderResult.createDate ?? Date()
+            docItem.name = folderResult.name ?? "No name"
+            documentItems.append(docItem)
+        }
+        collectionView.documentItems = documentItems
+        collectionView.reloadData()
     }
     
     func filterItemsWith(keyword:String){
@@ -75,6 +95,9 @@ class HomeViewController: BaseViewController {
         super.didReceiveMemoryWarning()
         print("HomeViewController didReceiveMemoryWarning")
     }
+    
+    
+    
 }
 
 

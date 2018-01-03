@@ -2,6 +2,18 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ScannerPlus/CoreDataModel/Folder+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:ScannerPlus/CoreDataModel/Folder+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/nguyen.manh.tuanb/Desktop/ScannerV2/ScannerPlus/ScannerPlus/CoreDataModel/Photo+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/nguyen.manh.tuanb/Desktop/ScannerV2/ScannerPlus/ScannerPlus/CoreDataModel/Photo+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
       location = "group:ScannerPlus.xcodeproj">
    </FileRef>
    <FileRef

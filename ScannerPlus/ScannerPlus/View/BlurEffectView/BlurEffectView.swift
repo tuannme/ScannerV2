@@ -14,7 +14,7 @@ class BlurEffectView: UIImageView {
         super.awakeFromNib()
         let blurEffect = UIBlurEffect(style: .dark)
         let blurredEffectView = UIVisualEffectView(effect: blurEffect)
-        blurredEffectView.frame = bounds
+        blurredEffectView.frame = UIScreen.main.bounds
         addSubview(blurredEffectView)
         image =  #imageLiteral(resourceName: "background")
     }

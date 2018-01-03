@@ -18,21 +18,19 @@ class DocumentItemCell: UICollectionViewCell, CellInterface {
     @IBOutlet fileprivate weak var nameListLabel: UILabel!
     @IBOutlet fileprivate weak var nameGridLabel: UILabel!
     @IBOutlet weak var statisticLabel: UILabel!
-    
     // avatarImageView constraints
     @IBOutlet fileprivate weak var avatarImageViewWidthConstraint: NSLayoutConstraint!
     @IBOutlet fileprivate weak var avatarImageViewHeightConstraint: NSLayoutConstraint!
-    
     // nameListLabel constraints
     @IBOutlet var nameListLabelLeadingConstraint: NSLayoutConstraint! {
         didSet {
             initialLabelsLeadingConstraintValue = nameListLabelLeadingConstraint.constant
         }
     }
-    
     // statisticLabel constraints
     @IBOutlet weak var statisticLabelLeadingConstraint: NSLayoutConstraint!
     
+    var avatarAction:(()->())?
     fileprivate var avatarGridLayoutSize: CGFloat = 0.0
     fileprivate var initialLabelsLeadingConstraintValue: CGFloat = 0.0
     
@@ -40,13 +38,19 @@ class DocumentItemCell: UICollectionViewCell, CellInterface {
         avatarImageView.image = UIImage(named: doc.picture)
         nameGridLabel.text = doc.name
         nameListLabel.text = doc.name
-        
         let dateFormater = DateFormatter()
         dateFormater.dateFormat = "yy-MM-dd HH:mm"
         let dateStr = dateFormater.string(from: doc.createDate)
-        
         statisticLabel.text = dateStr
+        
+        let tapGes = UITapGestureRecognizer(target: self, action: #selector(self.tapAvatar))
+        avatarImageView.isUserInteractionEnabled = true
+        avatarImageView.addGestureRecognizer(tapGes)
      }
+    
+    @objc func tapAvatar()  {
+        avatarAction?()
+    }
     
     func setupGridLayoutConstraints(_ transitionProgress: CGFloat, cellWidth: CGFloat) {
         avatarImageViewHeightConstraint.constant = ceil((cellWidth - avatarListLayoutSize) * transitionProgress + avatarListLayoutSize)

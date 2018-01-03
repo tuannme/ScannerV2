@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E55F0A21FFC695300A7BF47 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E55F0A11FFC695300A7BF47 /* CoreDataManager.swift */; };
+		2E55F0A51FFC6AD200A7BF47 /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E55F0A31FFC6AD200A7BF47 /* Document.xcdatamodeld */; };
+		2EA40FD61FFCAA5B00EFF10D /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA40FD41FFCAA5B00EFF10D /* ItemListViewController.swift */; };
 		5FB7CA2F17399245C9D12AE0 /* Pods_ScannerPlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D326E0F9DDF22E95599114AF /* Pods_ScannerPlus.framework */; };
 		CA0356861FF57C2A00D9E14F /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0356851FF57C2A00D9E14F /* ScannerViewController.swift */; };
 		CA0356881FF57CF700D9E14F /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0356871FF57CF700D9E14F /* CameraViewController.swift */; };
@@ -38,6 +41,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E55F0A11FFC695300A7BF47 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		2E55F0A41FFC6AD200A7BF47 /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
+		2EA40FD41FFCAA5B00EFF10D /* ItemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
 		5A7DB06D4099915A35F97A6F /* Pods-ScannerPlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerPlus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScannerPlus/Pods-ScannerPlus.debug.xcconfig"; sourceTree = "<group>"; };
 		6C7FC46573ABE99409B15C6F /* Pods-ScannerPlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerPlus.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScannerPlus/Pods-ScannerPlus.release.xcconfig"; sourceTree = "<group>"; };
 		CA0356851FF57C2A00D9E14F /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +90,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E55F0A01FFC693B00A7BF47 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2E55F0A11FFC695300A7BF47 /* CoreDataManager.swift */,
+				2E55F0A31FFC6AD200A7BF47 /* Document.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		2EA40FD11FFC8C0A00EFF10D /* ItemList */ = {
+			isa = PBXGroup;
+			children = (
+				2EA40FD41FFCAA5B00EFF10D /* ItemListViewController.swift */,
+			);
+			path = ItemList;
+			sourceTree = "<group>";
+		};
+		2EA40FD81FFCAC0E00EFF10D /* BlurEffectView */ = {
+			isa = PBXGroup;
+			children = (
+				CAD823B11FF03B4F0061918F /* BlurEffectView.swift */,
+			);
+			path = BlurEffectView;
+			sourceTree = "<group>";
+		};
 		AF03747716C20C7B9603C87B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +172,8 @@
 			children = (
 				DFEA7D641FED03EB00B357D1 /* BaseViewController.swift */,
 				CA9BD4D71FF4E7C4008F4761 /* MainViewController.swift */,
+				CA9BD4DB1FF4EDB4008F4761 /* Menu */,
+				DFEA7D621FED03D100B357D1 /* Home */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -167,7 +200,6 @@
 				DF13E8C81FF0FC800056A147 /* Search */,
 				DF4B791F1FF0B73100485FFA /* Cell */,
 				CAD823AF1FF038B90061918F /* ExpandView.swift */,
-				CAD823B11FF03B4F0061918F /* BlurEffectView.swift */,
 				DF4B79131FF0B3AE00485FFA /* CollectionView.swift */,
 			);
 			path = View;
@@ -221,6 +253,7 @@
 		DFBED80D1FE23C7500636BC1 /* ScannerPlus */ = {
 			isa = PBXGroup;
 			children = (
+				2E55F0A01FFC693B00A7BF47 /* CoreData */,
 				DFEA7D6B1FED04A600B357D1 /* View */,
 				DFEA7D601FED03BF00B357D1 /* Model */,
 				DFEA7D5F1FED03AC00B357D1 /* ViewController */,
@@ -238,8 +271,7 @@
 			children = (
 				CA9BD4D61FF4E7B1008F4761 /* Main */,
 				CA0356841FF57AE500D9E14F /* Scanner */,
-				CA9BD4DB1FF4EDB4008F4761 /* Menu */,
-				DFEA7D621FED03D100B357D1 /* Home */,
+				2EA40FD11FFC8C0A00EFF10D /* ItemList */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -267,6 +299,7 @@
 		DFEA7D6B1FED04A600B357D1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2EA40FD81FFCAC0E00EFF10D /* BlurEffectView */,
 				DFEA7D711FED065F00B357D1 /* BaseViewCustom */,
 			);
 			path = View;
@@ -443,9 +476,11 @@
 				DF13E8C31FF0ED320056A147 /* DocumentItem.swift in Sources */,
 				CA511FE81FF5FE8500E2BD52 /* FlashView.swift in Sources */,
 				CA0356861FF57C2A00D9E14F /* ScannerViewController.swift in Sources */,
+				2E55F0A21FFC695300A7BF47 /* CoreDataManager.swift in Sources */,
 				DFEA7D671FED03FB00B357D1 /* HomeViewController.swift in Sources */,
 				DF13E8C71FF0F1CA0056A147 /* DocumentItemCell.swift in Sources */,
 				DFEA7D731FED067E00B357D1 /* BaseViewCustom.swift in Sources */,
+				2E55F0A51FFC6AD200A7BF47 /* Document.xcdatamodeld in Sources */,
 				CA9BD4D81FF4E7C4008F4761 /* MainViewController.swift in Sources */,
 				CAD823B21FF03B4F0061918F /* BlurEffectView.swift in Sources */,
 				DFBED80F1FE23C7500636BC1 /* AppDelegate.swift in Sources */,
@@ -454,6 +489,7 @@
 				DF13E8CA1FF0FCA40056A147 /* SearchView.swift in Sources */,
 				CA9BD4DD1FF4EDC1008F4761 /* MenuViewController.swift in Sources */,
 				DFEA7D6A1FED045700B357D1 /* Configuration.swift in Sources */,
+				2EA40FD61FFCAA5B00EFF10D /* ItemListViewController.swift in Sources */,
 				DFEA7D651FED03EB00B357D1 /* BaseViewController.swift in Sources */,
 				DF4B79141FF0B3AE00485FFA /* CollectionView.swift in Sources */,
 				CAD823B01FF038B90061918F /* ExpandView.swift in Sources */,
@@ -595,9 +631,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = USQFGC88U6;
+				DEVELOPMENT_TEAM = GJE9S37JFS;
 				INFOPLIST_FILE = ScannerPlus/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dream.ScannerPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -612,9 +648,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = USQFGC88U6;
+				DEVELOPMENT_TEAM = GJE9S37JFS;
 				INFOPLIST_FILE = ScannerPlus/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dream.ScannerPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -645,6 +681,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2E55F0A31FFC6AD200A7BF47 /* Document.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2E55F0A41FFC6AD200A7BF47 /* Document.xcdatamodel */,
+			);
+			currentVersion = 2E55F0A41FFC6AD200A7BF47 /* Document.xcdatamodel */;
+			path = Document.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DFBED8031FE23C7500636BC1 /* Project object */;
 }

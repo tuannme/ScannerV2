@@ -1669,7 +1669,7 @@
     if (_ratingBlock)
         _ratingBlock(currentRating);
     
-    [self dismissAlertView];
+    //[self dismissAlertView];
     
 }
 

@@ -16,7 +16,7 @@ private let gridLayoutStaticCellHeight: CGFloat = 165
 class CollectionView: UICollectionView {
 
     var documentItems:[DocumentItem] = []
-    
+    var selectFolderAction:((_ folder:Folder)->())?
     fileprivate var listLayout = DisplaySwitchLayout(staticCellHeight: listLayoutStaticCellHeight, nextLayoutStaticCellHeight: gridLayoutStaticCellHeight, layoutState: .list)
     fileprivate var gridLayout = DisplaySwitchLayout(staticCellHeight: gridLayoutStaticCellHeight, nextLayoutStaticCellHeight: listLayoutStaticCellHeight, layoutState: .grid)
     fileprivate var layoutState: LayoutState = .list
@@ -37,7 +37,7 @@ class CollectionView: UICollectionView {
     }
     
     func sortItem(){
-        if !self.isTransitionAvailable {
+        if !self.isTransitionAvailable || documentItems.count == 0{
             return
         }
         let transitionManager: TransitionManager
@@ -49,6 +49,11 @@ class CollectionView: UICollectionView {
             transitionManager = TransitionManager(duration: animationDuration, collectionView: self, destinationLayout: self.listLayout, layoutState: self.layoutState)
         }
         transitionManager.startInteractiveTransition()
+    }
+    
+    func didSelectFolder(index:Int){
+        let document = documentItems[index]
+        
     }
     
 }
@@ -68,9 +73,15 @@ extension CollectionView : UICollectionViewDataSource,UICollectionViewDelegate{
         }
         let document = documentItems[indexPath.row]
         cell.bind(document)
+        cell.avatarAction = {
+            [weak self] in
+            guard let _self = self else{return}
+            guard let index = collectionView.indexPath(for: cell)?.row else{return}
+            _self.didSelectFolder(index: index)
+        }
         return cell
-        
     }
+    
     
     func collectionView(_ collectionView: UICollectionView, transitionLayoutForOldLayout fromLayout: UICollectionViewLayout, newLayout toLayout: UICollectionViewLayout) -> UICollectionViewTransitionLayout {
         let customTransitionLayout = TransitionLayout(currentLayout: fromLayout, nextLayout: toLayout)
